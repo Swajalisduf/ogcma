@@ -1,0 +1,6 @@
+header {
+	width: 100%;
+	height: 200px;
+	background-image: url("background_top_1300px.png");
+	background-size: contain;
+}

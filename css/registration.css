@@ -1,0 +1,38 @@
+#registration_box{
+	text-align: center;
+	position: absolute;
+    z-index: 100001;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(222, 226, 232, .5);
+}
+
+#registration_form{
+	border-top: 5px solid #001E4C;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	width: 700px;
+	padding-top: 20px;
+	background-color: white;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, .6);
+	height: 550px;
+	position: absolute;
+	top: 100px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	margin-top: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	padding: 5pt;
+	font-size: 24pt;
+}
+
+p {
+	padding: 5pt;
+	font-size: 12pt;
+}

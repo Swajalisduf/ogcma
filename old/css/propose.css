@@ -1,0 +1,5 @@
+.dischead > ul > li {
+	padding: 18px;
+	box-shadow: 0 5px 10px rgba(125,125,125,.4);
+	background-color: #f8f8f8;
+}

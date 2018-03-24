@@ -1,0 +1,251 @@
+.top-image {
+	z-index: 5000;
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+.container2 {
+	z-index: 5000;
+}
+
+.line2 {
+	margin: 20px 70px 20px 70px;
+	border-bottom: 2px solid #566A87;
+}
+
+.whole {
+	left: 250px;
+	color: #000000;
+	background-color: #f8f8f8;
+	border-top: 2px solid black;
+}
+
+.whole:before, .whole:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.links {
+	color: #ff0007;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.discuss:before, .discuss:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.half {
+	float: left;
+	width: 50%;
+	padding: 0px 15px 40px 40px;
+	margin-top: 20px;
+	box-sizing: border-box;
+	color: #030303;
+}
+
+.half:first-child {
+	border-right: 2px solid black;
+}
+
+.half:first-child p, .half:first-child li {
+	color: #030303;
+}
+
+.discuss {
+	background-color: #ffffff;
+	box-sizing: border-box;
+	width: 45%;
+	height: 400px;
+	margin: 20px 20px;
+	padding: 0;
+	float: right;
+	box-shadow: 0 5px 10px rgba(125,125,125,.6);
+	overflow: hidden;
+	position: relative;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.dischead {
+	background-color: #566A87;
+	padding: 10px 10px 10px 10px;
+	margin: 15px 20px;	
+	position: relative;
+	color: #070707;
+	font-size: 18pt;
+	box-shadow: 0 5px 10px rgba(125,125,125,.6);
+}
+
+
+.dischead:before, .dischead:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.dischead h3 {
+	width: 100%;
+	float: left;
+}
+
+#pop_topics  {
+	margin: 20px;
+	padding: 0 10px;
+}
+
+#pop_topics h4 {
+	margin: 10px 0 10px 0;
+	font-weight: bold;
+}
+
+#pop_topics ul {
+	height: 270px;
+	overflow: auto;
+}
+
+.line3 {
+	margin: 0 40px 10px 40px;
+	border-bottom: 2px solid #566A87;
+}
+
+#pop_topics > ul > li {
+	padding: 18px;
+	box-shadow: 0 5px 10px rgba(125,125,125,.4);
+	background-color: #f8f8f8;
+}
+
+#comments {
+	display: none;
+	padding: 0 10px;
+	margin: 20px;
+}
+
+.comment1 {
+	box-shadow: 0 5px 10px rgba(125,125,125,.4);
+	margin: 20px;
+	background-color: #f8f8f8;
+}
+
+#comments h4 {
+    margin: 10px 0 10px 0;
+    font-weight: bold;
+    width: 60%;
+    display: inline-block;
+}
+
+#comments h4 + p {
+	width: 38%;
+	display: inline-block;
+	text-align: right;
+}
+
+.commentator h5 {
+	font-weight: bold;
+	font-size: 12pt;
+	padding: 5px;
+}
+
+.commentator p {
+	font-size: 10pt;
+	padding: 10px;
+}
+
+
+h1 {
+	background-color: #566A87;
+	padding: 10px 10px 10px 20px;
+	margin: 20px 20px;
+	color: #070707;
+	font-size: 20pt;
+	box-shadow: 0 5px 10px rgba(125,125,125,.6);
+}
+
+h2 {
+	font-size: 12pt;
+	padding-left: 40px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.info {
+	font-size: 10.5pt;
+	padding-left: 40px;
+	margin-bottom: 10px;
+	font-style: italic;
+}
+
+.half h2 {
+	padding: 0;
+}
+
+p,li {
+	font-size: 10.5pt;
+	margin-bottom: 20px;
+}
+
+li {
+	padding-left: 20px;
+}
+
+/** For proposal_prior.php **/
+
+#prior {
+	padding: 0 10px;
+	margin: 20px;
+}
+
+#prior h4 {
+    margin: 10px 0 10px 0;
+    font-weight: bold;
+    width: 60%;
+    display: inline-block;
+}
+
+#prior h4 + p {
+	width: 38%;
+	display: inline-block;
+	text-align: right;
+}
+
+/** For forum.php **/
+
+#forum {
+	margin: 20px;
+	padding: 0 10px;
+	width: 50%;
+	float:left;
+}
+
+#forum h4 {
+	margin: 10px 0 10px 0;
+	font-weight: bold;
+}
+
+#forum ul {
+	height: 270px;
+	overflow: auto;
+}
+
+#forum > ul > li {
+	padding: 18px;
+	box-shadow: 0 5px 10px rgba(125,125,125,.4);
+	background-color: #ffffff;
+}
+
+.box {
+	width: 40%;
+	float: right;
+	padding: 10px;
+	margin-top: 25px;
+	margin-right: 25px;
+	background-color: #566A87;
+	border: 2px solid black;
+	box-shadow: 0 5px 10px rgba(125,125,125,.4);
+}
