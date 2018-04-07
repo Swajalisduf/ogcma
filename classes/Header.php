@@ -2,8 +2,8 @@
 
 class Header {
 
-	public static function getTitle($get){
-		if(isset($get['title'])){
+	public static function getTitle($title){
+		if(isset($title)){
 			$title = "<title>OGCMA | " . ucfirst($get['title'] . "</title>\n");
 		} elseif (isset($get['page'])) {
 			$title = "<title>OGCMA | " . ucfirst($get['page'] . "</title>\n");
