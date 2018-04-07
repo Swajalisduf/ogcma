@@ -2,11 +2,11 @@
 
 class Header {
 
-	public static function getTitle($title){
+	public static function getTitle($title, $page){
 		if(isset($title)){
-			$title = "<title>OGCMA | " . ucfirst($get['title'] . "</title>\n");
-		} elseif (isset($get['page'])) {
-			$title = "<title>OGCMA | " . ucfirst($get['page'] . "</title>\n");
+			$title = "<title>OGCMA | " . ucfirst($title . "</title>\n");
+		} elseif (isset($page)) {
+			$title = "<title>OGCMA | " . ucfirst($page . "</title>\n");
 		} else {
 			$title = "<title>OGCMA | Home</title>\n";
 		};
