@@ -1,19 +1,29 @@
 <?php
 	include 'includes/src/app.php';
+	$title = null;
+	$page = null;
+
+	if(isset($_GET['title'])){
+		$title = $_GET['title'];
+	}
+
+	if(isset($_GET['page'])){
+		$page = $_GET['page'];
+	}
 ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-		<?=Header::getTitle($_GET);?>
+		<?=Header::getTitle($title, $page);?>
 		
 		<link href="css/reset.css" rel="stylesheet" type="text/css" />		
 		<link href="css/general.css" rel="stylesheet" type="text/css" />
 		<link href="css/index.css" rel="stylesheet" type="text/css" />
-		<?=Header::getStyles($_GET["page"]);?>
+		<?=Header::getStyles($page);?>
 
 		<script src="js/jquery-3.1.1.js"></script>
-		<?=Header::getJavascripts($_GET["page"]);?>
+		<?=Header::getJavascripts($page);?>
 		
 	</head>
 	<body>
