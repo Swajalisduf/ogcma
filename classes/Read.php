@@ -10,7 +10,7 @@ READ FUNCTIONS
 ****/
 	//Need this method to return the filename of the pdf (don't return the .pdf extension just the name itself)
 	public static function getPDF(){
-
+		//I will create this function.
 	}
 
 	//Need this method needs to return the entire contents of a .txt file given the filename (this is why I don't want the getPDF() method to return the .pdf extension)
