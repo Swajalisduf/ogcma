@@ -6,6 +6,8 @@ class Login {
 		}
 
 		public function checkUsername($username){
+			var_dump($this->connection);
+			exit;
 			//check username
 			if(!empty($username)){
 				try{
