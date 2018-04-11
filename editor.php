@@ -4,6 +4,7 @@
 	$pdf = Read::getPDF();
 	$textfile = Read::getTextContents($pdf);
 ?>
+		<!-- Need to set up CSS so the page is a two column layout with header on left and main on right -->
 		<main>
 			<h2 id="mode">Edit Mode</h2>
 			<section>
