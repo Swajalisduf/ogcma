@@ -1,15 +1,16 @@
 <?php
 	require 'includes/partials/header.php';
 
-	$pdf = Read::getPDF();
-	$textfile = Read::getTextContents($pdf);
+	$filename = Read::getFilename();
+	$textfile = Read::getTextContents($filename);
 ?>
+		<!-- Need to set up CSS so the page is a two column layout with header on left and main on right -->
 		<main>
 			<h2 id="mode">Edit Mode</h2>
 			<section>
 				<object data="<?=$pdf;?>" type="application/pdf">
 		   		<p>
-		   			This browser does not support PDFs. Please download the PDF to view it: <a href="<?=$pdf;?>.pdf">Download PDF</a>.
+		   			This browser does not support PDFs. Please download the PDF to view it: <a href="<?=$filename;?>.pdf">Download PDF</a>.
 		   		</p>
 				</object>
 			</section>
