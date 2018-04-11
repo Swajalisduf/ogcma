@@ -10,12 +10,39 @@ READ FUNCTIONS
 ****/
 	//Need this method to return the filename of the pdf (don't return the .pdf extension just the name itself)
 	public static function getPDF(){
-		
+		try{
+			$selectQuery = "
+				SELECT  pdf
+				FROM	text_editor_info
+				WHERE	user_id = :user_id
+			";
+			
+			$statement = $this->connection->prepare($selectQuery);
+			$statement->bindParam(':user_id', $user_id, PDO::PRAMA_STR);
+			$statement->execute();
+			$response = $statement->fetch();
+			return $response;
+		} catch( PDOException $error ) {
+			echo "<p class='error'>ERROR: " . $error->getMessage() . "</p>";
+		}
 	}
 
 	//Need this method needs to return the entire contents of a .txt file given the filename (this is why I don't want the getPDF() method to return the .pdf extension)
 	public static function getTextContents($filename){
-
+		$selectQuery = "
+				SELECT  txt
+				FROM	text_editor_info
+				WHERE	pdf = :filename
+			";
+			
+			$statement = $this->connection->prepare($selectQuery);
+			$statement->bindParam(':filename', $filename, PDO::PRAMA_STR);
+			$statement->execute();
+			$response = $statement->fetch();
+			return $response;
+		} catch( PDOException $error ) {
+			echo "<p class='error'>ERROR: " . $error->getMessage() . "</p>";
+		}
 	}
 
 	public function getEntryNumber($getData){
