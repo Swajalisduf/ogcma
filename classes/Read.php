@@ -9,7 +9,7 @@ class Read {
 READ FUNCTIONS
 ****/
 	//Need this method to return the filename of the pdf (don't return the .pdf extension just the name itself)
-	public static function getPDF(){
+	public static function getPDF($user_id){
 		try{
 			$selectQuery = "
 				SELECT  pdf
@@ -29,7 +29,8 @@ READ FUNCTIONS
 
 	//Need this method needs to return the entire contents of a .txt file given the filename (this is why I don't want the getPDF() method to return the .pdf extension)
 	public static function getTextContents($filename){
-		
+		$txt = file_get_contents($filename + '.txt');
+		return $txt
 	}
 
 	public function getEntryNumber($getData){
