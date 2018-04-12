@@ -1,8 +1,13 @@
 <?php
 	require 'includes/partials/header.php';
 
-	$filename = Read::getFilename();
+	$user_id = 27;
+
+	$read = new Read;
+	$filename = $read->getFilename($user_id);
 	$textfile = Read::getTextContents($filename);
+	var_dump($textfile);
+	exit;
 ?>
 		<!-- Need to set up CSS so the page is a two column layout with header on left and main on right -->
 		<main>
