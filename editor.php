@@ -6,14 +6,12 @@
 	$read = new Read;
 	$filename = $read->getFilename($user_id);
 	$textfile = Read::getTextContents($filename);
-	var_dump($textfile);
-	exit;
 ?>
 		<!-- Need to set up CSS so the page is a two column layout with header on left and main on right -->
 		<main>
 			<h2 id="mode">Edit Mode</h2>
 			<section>
-				<object data="<?=$pdf;?>" type="application/pdf">
+				<object data="editor/pdf/<?=$filename;?>.pdf" type="application/pdf">
 		   		<p>
 		   			This browser does not support PDFs. Please download the PDF to view it: <a href="<?=$filename;?>.pdf">Download PDF</a>.
 		   		</p>
