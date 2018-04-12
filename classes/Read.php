@@ -18,10 +18,10 @@ READ FUNCTIONS
 			";
 			
 			$statement = $this->connection->prepare($selectQuery);
-			$statement->bindParam(':user_id', $user_id, PDO::PRAMA_STR);
+			$statement->bindParam(':user_id', $user_id, PDO::PARAM_STR);
 			$statement->execute();
 			$response = $statement->fetch();
-			return $response;
+			return $response[0];
 		} catch( PDOException $error ) {
 			echo "<p class='error'>ERROR: " . $error->getMessage() . "</p>";
 		}
@@ -29,7 +29,11 @@ READ FUNCTIONS
 
 	//Need this method needs to return the entire contents of a .txt file given the filename (this is why I don't want the getPDF() method to return the .pdf extension)
 	public static function getTextContents($filename){
-		$txt = file_get_contents($filename + '.txt');
+		$filepath = "";
+		$filepath .= "editor/txt/";
+		$filepath .= $filename;
+		$filepath .= ".txt";
+		$txt = file_get_contents($filepath);
 		return $txt;
 	}
 
