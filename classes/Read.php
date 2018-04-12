@@ -13,7 +13,7 @@ READ FUNCTIONS
 		try{
 			$selectQuery = "
 				SELECT  filename
-				FROM	text_editor_info
+				FROM	text_editor
 				WHERE	user_id = :user_id
 			";
 			
