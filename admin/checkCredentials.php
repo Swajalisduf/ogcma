@@ -1,7 +1,7 @@
 <?php
 
 require_once '../includes/src/app2.php';
-if(!empty($_GET['password'])){
+if(!empty($_POST['password'])){
 	//this stays on the checkCredentials page
 	$user = [
 		'username' => $_POST['username'],
