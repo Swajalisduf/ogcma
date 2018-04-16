@@ -6,8 +6,6 @@ class Login {
 		}
 
 		public function checkUsername($username){
-			var_dump($this->connection);
-			exit;
 			//check username
 			if(!empty($username)){
 				try{
@@ -30,7 +28,7 @@ class Login {
 			}
 		}
 
-		public function checkPassword($username, $password){
+		public function checkPassword($username){
 			try {
 				$selectOne="
 					SELECT password
@@ -42,6 +40,7 @@ class Login {
 					$statement->bindParam(':username', $username, PDO::PARAM_STR);
 					$statement->execute();
 					$password = $statement->fetch();
+				
 					return $password[0]; 
 				} catch (expection $error) {
 					echo $error->getMessage();
@@ -50,7 +49,7 @@ class Login {
 
 		public function checkLogin($user){
 			if($this->checkUsername($user['username'])){
-				if($this->checkPassword($user['username'], $user['password']) == $user['password']){
+				if($this->checkPassword($user['username']) == $user['password']){
 					return 1;
 				} else {
 					return 2; //"Password is incorrect."
