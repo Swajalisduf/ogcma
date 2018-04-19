@@ -30,7 +30,7 @@ class Login {
 			}
 		}
 
-		public function checkPassword($username, $password){
+		public function checkPassword($username){
 			try {
 				$selectOne="
 					SELECT password
