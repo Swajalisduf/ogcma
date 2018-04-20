@@ -4,16 +4,16 @@ class Connect {
 				
 	public static function init() {
 		# For use with BYU Server
-		$database = "ogcma";
-		$username = "ogcma_user";
-		$password = "0xford1O!";	
-		$hostname = "humdbinternal.byu.edu";
+		// $database = "ogcma";
+		// $username = "ogcma_user";
+		// $password = "0xford1O!";	
+		// $hostname = "humdbinternal.byu.edu";
 
 		# For development purpose
-		// $database = "ogcma-dev";
-		// $username = "root@localhost";
-		// $password = null;
-		// $hostname = "localhost";
+		$database = "ogcma-dev";
+		$username = "root";
+		$password = null;
+		$hostname = "127.0.0.1";
 
 		self::$connection = new PDO(
 			"mysql:host={$hostname};dbname={$database}",
