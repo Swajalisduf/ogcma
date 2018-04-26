@@ -1,5 +1,37 @@
 /* General */
 
+/*** Notes on Styling ***/
+
+/*  
+
+-Layout is from small to big (like phone to tablet to computer) so when you are doing your css plan accordingly.
+
+-I am setting this up so that you just have to have a <main> element on each page to contain it's content. As long as you contain everything inside a <main> element it should automatically be responsive (though you'll have to adjust your content accordingly)
+
+*/
+
+/* This is not SASS this is built in to CSS it allows you to create variables that you can use throughout the rest of the css file though so incredibly useful. when you call it as a CSS value you put 
+
+--var(name)
+
+so an example would be 
+
+header {
+	background-color: --var(primary-color);
+}
+
+You declare the variables in the :root selector at the top of the page
+*/
+
+:root {
+	--header-background: #001E4C; /* Dark Blue */
+	--primary-color: #3D5170; /* Blueish Teal? (I'm colorblind I just know it looks good with the other colors) */
+	--secondary-color: #F9E7CD; /* Tan */
+	--tertiary-color: #F8F8F8; /* White */
+};
+
+/*** General Rules ***/
+
 @font-face {
 	font-family: forum;
 	src: url(../fonts/forum.ttf) format('truetype');
@@ -10,84 +42,13 @@ html {
 
 body {
 	font-family: forum;
-	background-color: #f8f8f8;
-	margin: 0px;
+	background-color: var(--tertiary-color);
 }
 
 * {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-}
-
-.hidden {
-	display: none;
-}
-
-.reset-a{
-	color: #000000;
-}
-
-.bold {
-	font-weight: bold;
-}
-
-.italics {
-	font-style: italic;
-}
-
-.bullets {
-	font-size: 22pt;
-}
-
-/* For use with styling titles */
-.quotes:before, .quotes:after {
-	content: "\0022";
-}
-
-.fixed {
-	position: fixed;
-}
-
-.absolute {
-	position: absolute;
-}
-
-.clearfix::before, .clearfix::after {
-	content: "";
-	clear: both;
-	overflow: auto;
-}
-
-#container {
-	position: absolute;
-	box-sizing: border-box;
-	background-color: #3D5170;
-	width: 100%;
-}
-
-#container2::before, #container2::after {
-	content: "";
-	display: block;
-	clear: both;
-}
-
-#container2 {
-	position: absolute;
-	width: 100%;
-	box-sizing: border-box;
-	padding-left: 250px;
-	height: 100vh;
-}
-
-
-.italic {
-	font-style: italic;
-}
-
-.top-image {
-	position: relative;
-	z-index: 1000;
 }
 
 a {
@@ -98,24 +59,65 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-/* Header/sidebar */
 
-header {
-	width: 250px;
-	height: 100vh;
-	background-color: #001E4C;
-	z-index: 10000;
-	display: inline-block;
-	box-sizing: border-box;
-	vertical-align: top;
-	position: fixed;
-	box-shadow: 5px 5px 10px rgba(125,125,125,.6);
+/*** Classes for General Use ***/
+/* Some of these are frequently used with Javascript */
+
+.bold {
+	font-weight: bold;
 }
 
-header a img {
-	width: 80%;
-	margin-top: 150px;
+.hidden {
+	display: none;
 }
+
+.italic {
+	font-style: italic;
+}
+
+.reset-a{
+	color: #000000;
+}
+
+.bullets {
+	font-size: 22pt;
+}
+
+.clearfix::before, .clearfix::after {
+	content: "";
+	clear: both;
+	overflow: auto;
+}
+
+
+/* Need to make this a phone size image that can be used */
+
+.background-image {
+	background-image: url("../images/background-phone.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*** Layout ***/
+
+body {
+	display: grid;
+	overflow-x: hidden;
+	grid-template-rows: 10vh 1fr 5vh;
+	grid-template-areas:
+		"header"
+		"main"
+		"footer"
+	;
+}
+
+header { grid-area: header; }
+main { grid-area: main; }
+footer { grid-area: footer; }
+
+
+
+/* Header/Nav */
 
 header a {
 	text-decoration: none;
@@ -123,13 +125,18 @@ header a {
 }
 
 nav {
+	background-color: #001E4C;
+	height: 10vh;
 	width: 100%;
-	display: inline-block;
+	z-index: 10000;
+	box-sizing: border-box;
+	vertical-align: top;
+	position: fixed;
+	box-shadow: 5px 5px 10px rgba(125,125,125,.6);
 }
-
+/*
 nav ul {
-	margin-top: 100px;
-	padding: 0px;
+
 }
 
 nav ul li {
@@ -145,105 +152,19 @@ nav ul li {
 	margin-bottom: 15px;
 }
 
-nav form {
-	padding: 20px;
-}
 
-/* Alphabet Browse */
-
-#browse_list {
-	height: 100%;
-	background-color: #5A7896;
-	z-index: 8000;
-	display: none;
-	box-sizing: border-box;
-	vertical-align: top;
-	position: fixed;
-	left: 250px;
-	width: 250px;
-	overflow: auto;
-}
-
-#alphabet {
-	width: 50px;
-	position: relative;
-	margin: 75px auto 0px auto;
-	color: #F7F0F0;
-	text-align: center;
-	display: inline-block;
-	border-right: 1px solid #F7F0F0;
-}
-
-
-
-#alphabet p {
-	padding: 3.5px 0px;
-	border-right: 1px solid #F7F0F0;
-	margin: 0px;
-	font-size: 12pt;
-}
-
-/*#myths {
-	width: 200px;
-	height: 100%;
-	background-color: #5A7896;
-	z-index: 10000;
-	box-sizing: border-box;
-	vertical-align: top;
-	position: fixed;
-	left: 300px;
-	display: inline-block;
-	border-right: 2px solid #F7F0F0;
-	overflow: auto;
-}
 */
-#myths ul {
-	margin: 75px auto 0px auto; 
-	color: #F7F0F0;
-	font-size: 11pt;
-	display: none;
-	position: fixed;
-	padding: 0px;
+
+@media (min-width: 500px){
+
 }
 
-#myths li {
-	list-style-type: none;
-	margin: 5px auto 0px 15px;
-	box-sizing: border-box;
-}
-
-#works_list {
-	width: 250px;
-	height: 100%;
-	background-color: #3D5170;
-	z-index: 10000;
-	display: none;
-	box-sizing: border-box;
-	vertical-align: top;
-	position: fixed;
-	left: 500px;
-	overflow: auto;
-	color: #F7F0F0;
-	border-right: 2px solid #F7F0F0;
-}
-
-#works_list ul {
-	list-style-type: none;
-	padding: 25px;
-}
-
-#works_list ul li {
-	font-size: 10pt;
-	margin-top: 10px;	
-}
-
-#works_list ul li p {
-	padding: 0px 0px 0px 15px;
-	margin: 0px;
-}
-
-.line {
-	width: 70%;
-	margin: 0px auto;
-	border-bottom: 1px solid #F7F0F0;
+@media (min-width: 1100px){
+	.logo {
+		display: block;
+		width: 200px;
+		height: 200px;
+		background-image: url("../images/ogcma_logo.png");
+		background-size: contain;
+	}
 }
