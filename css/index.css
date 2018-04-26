@@ -1,6 +1,18 @@
+body {
+	overflow-y: hidden;
+}
+
 .index_back {
 	display: block;
 	width: 100%;
 	box-sizing: border-box;
 	position: fixed;
+}
+
+@media (min-width: 500px){
+
+}
+
+@media (min-width: 1100px){
+
 }
