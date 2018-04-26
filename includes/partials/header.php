@@ -27,14 +27,13 @@
 		
 	</head>
 	<body>
-		<div id="container">
-			<header>
-				<a href="index.php"><img src="images/ogcma_logo.png" alt="ogcma_logo"></a>
-				<nav>
-					<ul>
-						<li id="browse">Browse</li>
-						<li><a href="admin.php?page=admin">Admin</a></li>
-						<li>About</li>					
-					</ul>
-				</nav>
-			</header>
+		<header>
+			<a href="index.php"><img src="images/ogcma_logo.png" alt="ogcma_logo"></a>
+			<nav>
+				<ul>
+					<li id="browse">Browse</li>
+					<li><a href="admin.php?page=admin">Admin</a></li>
+					<li>About</li>					
+				</ul>
+			</nav>
+		</header>
