@@ -1,8 +1,7 @@
 <?php
 	require_once 'includes/partials/header.php';
 ?>
-
-	<img src="images/background.png" alt="background">	
-	<!-- Here lies a comment -->
+<main class="background-image">
+</main>
 <?php
 	require_once 'includes/partials/footer.php';
