@@ -28,6 +28,20 @@ h1 {
 	display: flex;
 }
 
+#container2::before, #container2::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#container2 {
+	position: absolute;
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 250px;
+	height: 100vh;
+}
+
 /* highlight searched text */
 
 .highlight {
