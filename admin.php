@@ -2,11 +2,12 @@
 	require_once 'includes/partials/header.php';
 ?>
 
-	<div id="container2">
-			<img class='top-image' src='images/background_top_1300px.png' alt='background'>
+	<div>
+			
 		<?php
 			require_once 'dialog_pages/adminLogin.php';
 		?>
+		<div class="background-image"></div>
 		<div id="options">
 			<ul>
 				<li>
