@@ -125,16 +125,40 @@ header a {
 }
 
 nav {
-	background-color: #001E4C;
+	background-color: var(--header-background);
 	height: 10vh;
 	width: 100%;
-	z-index: 10000;
+	z-index: 100;
 	box-sizing: border-box;
 	vertical-align: top;
 	position: fixed;
 	box-shadow: 5px 5px 10px rgba(125,125,125,.6);
 }
+
+nav .hamburger {
+	width: 100px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.hamburger div {
+	height: 5px;
+	width: 80px;
+	margin: 10px;
+	background-color: var(--tertiary-color);
+}
+
 /*
+	In order to get the hamburger animation to work the first steps are:
+
+	1: move line-1 with transform: translate(0, 25px);
+	2: move line-3 with transform: translate(0, -25px);
+	3: make line-2 disappear (this will probably take a separate animation);
+*/
+
 nav ul {
 
 }
@@ -153,7 +177,7 @@ nav ul li {
 }
 
 
-*/
+
 
 @media (min-width: 400px){
 	.background-image {
