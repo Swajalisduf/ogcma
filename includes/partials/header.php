@@ -23,13 +23,19 @@
 		<?=Header::getStyles($page);?>
 
 		<script src="js/jquery-3.1.1.js"></script>
+		<script src="js/general.js"></script>
 		<?=Header::getJavascripts($page);?>
 		
 	</head>
 	<body>
 		<header>
-			<a href="index.php"><img src="images/ogcma_logo.png" alt="ogcma_logo"></a>
+			<a href="index.php"><span class="logo"></span></a>
 			<nav>
+				<div class="hamburger">
+					<div class="line-1"></div>
+					<div class="line-2"></div>
+					<div class="line-3"></div>
+				</div>
 				<ul>
 					<li id="browse">Browse</li>
 					<li><a href="admin.php?page=admin">Admin</a></li>
