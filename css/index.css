@@ -3,13 +3,6 @@ body {
 	height: 100vh;
 }
 
-.index_back {
-	display: block;
-	width: 100%;
-	box-sizing: border-box;
-	position: fixed;
-}
-
 @media (min-width: 400px){
 
 }
