@@ -29,12 +29,14 @@
 	</head>
 	<body>
 		<header>
-			<a href="index.php"><span class="logo"></span></a>
 			<nav>
-				<div class="hamburger">
-					<div class="line1"></div>
-					<div class="line2"></div>
-					<div class="line3"></div>
+				<div>
+					<a href="index.php"><span class="logo"></span></a>
+					<div class="hamburger">
+						<div class="line1"></div>
+						<div class="line2"></div>
+						<div class="line3"></div>
+					</div>
 				</div>
 				<ul>
 					<li id="browse">Browse</li>
