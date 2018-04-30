@@ -28,6 +28,9 @@ You declare the variables in the :root selector at the top of the page
 	--primary-color: #3D5170; /* Blueish Teal? (I'm colorblind I just know it looks good with the other colors) */
 	--secondary-color: #F9E7CD; /* Tan */
 	--tertiary-color: #F8F8F8; /* White */
+	--text-primary: #000; /* Black */
+	--text-secondary: #F8F8F8; /* White */
+	--text-tertiary: #d3d3d3; /* Grey */
 };
 
 /*** General Rules ***/
@@ -119,9 +122,13 @@ footer { grid-area: footer; }
 
 /* Header/Nav */
 
-header a {
+header div > a {
 	text-decoration: none;
-	color: #F7F0F0;
+	color: inherit;
+}
+
+header a:hover {
+	text-decoration: none;
 }
 
 nav {
@@ -135,9 +142,24 @@ nav {
 	box-shadow: 5px 5px 10px rgba(125,125,125,.6);
 }
 
-nav .hamburger {
-	width: 100px;
-	height: 100px;
+nav div:first-child {
+	display: flex;
+	background-color: inherit;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5px 0 5px;
+}
+
+.logo::before {
+	content: "OGCMA";
+	font-family: forum;
+	font-size: 24px;
+	color: var(--text-secondary);
+}
+
+.hamburger {
+	width: 35px;
+	height: 35px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -145,39 +167,80 @@ nav .hamburger {
 }
 
 .hamburger div {
-	height: 5px;
-	width: 80px;
-	margin: 10px;
+	height: 3px;
+	width: 25px;
+	margin: 3px;
 	background-color: var(--tertiary-color);
 }
 
-/*
-	In order to get the hamburger animation to work the first steps are:
+/* Hamburger animations */
 
-	1: move line-1 with transform: translate(0, 25px);
-	2: move line-3 with transform: translate(0, -25px);
-	3: make line-2 disappear (this will probably take a separate animation);
-*/
+@keyframes oneForward {
+	0% { transform: translate(0); }
+	100%{ transform: translate(0, 9px); }
+}
 
+@keyframes threeForward {
+	0% { transform: translate(0); }
+	100%{ transform: translate(0, -9px); }
+}
+
+@keyframes oneReverse {
+	0% { transform: translate(0, 9px); }
+	100%{ transform: translate(0); }
+}
+
+@keyframes threeReverse {
+	0% { transform: translate(0, -9px); }
+	100%{ transform: translate(0); }
+}
+
+.line1-forward {
+	animation: oneForward ease-in .2s forwards;
+}
+
+.line3-forward {
+	animation: threeForward ease-in .2s forwards;	
+}
+
+.line1-reverse {
+	animation: oneReverse ease-in .2s forwards;
+}
+
+.line3-reverse {
+	animation: threeReverse ease-in .2s forwards;	
+}
+
+/* nav animation */
+
+/* Translating this is causing issues with the logo and hamburger icon */
 nav ul {
-
+	background-color: var(--primary-color);
+	color: var(--text-primary);
+	transform: translate(0,-150px);
+	z-index: -100;
 }
 
 nav ul li {
 	display: block;
 	width: 100%;
 	font-family: forum;
-	color: #F7F0F0;
+	color: var(--text-secondary);
 	text-decoration: none;
 	box-sizing: border-box;
-	padding: 10px 10px 10px 20px;
-	text-align: left;
+	padding: 10px 10px 10px 10px;
+	text-align: right;
 	font-size: 12pt;
 	margin-bottom: 15px;
 }
 
+nav ul li a {
+	color: inherit;
+}
 
-
+nav ul li a:hover {
+	color: var(--text-tertiary);
+}
 
 @media (min-width: 400px){
 	.background-image {
@@ -211,5 +274,9 @@ nav ul li {
 		height: 200px;
 		background-image: url("../images/ogcma_logo.png");
 		background-size: contain;
+	}
+
+	.logo::before {
+		display: none;
 	}
 }
