@@ -32,9 +32,9 @@
 			<a href="index.php"><span class="logo"></span></a>
 			<nav>
 				<div class="hamburger">
-					<div class="line-1"></div>
-					<div class="line-2"></div>
-					<div class="line-3"></div>
+					<div class="line1"></div>
+					<div class="line2"></div>
+					<div class="line3"></div>
 				</div>
 				<ul>
 					<li id="browse">Browse</li>
