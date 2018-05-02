@@ -106,7 +106,7 @@ a:hover {
 body {
 	display: grid;
 	overflow-x: hidden;
-	grid-template-rows: 10vh 1fr 5vh;
+	grid-template-rows: 35px 1fr 5vh;
 	grid-template-areas:
 		"header"
 		"main"
@@ -133,7 +133,7 @@ header a:hover {
 
 nav {
 	background-color: var(--header-background);
-	height: 10vh;
+	height: 35px;
 	width: 100%;
 	z-index: 100;
 	box-sizing: border-box;
@@ -142,7 +142,7 @@ nav {
 	box-shadow: 5px 5px 10px rgba(125,125,125,.6);
 }
 
-nav div:first-child {
+nav > div:first-child {
 	display: flex;
 	background-color: inherit;
 	justify-content: space-between;
