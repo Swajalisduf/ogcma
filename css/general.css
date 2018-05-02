@@ -196,22 +196,40 @@ nav > div:first-child {
 }
 
 .line1-forward {
-	animation: oneForward ease-in .2s forwards;
+	animation: oneForward ease-in .25s forwards;
 }
 
 .line3-forward {
-	animation: threeForward ease-in .2s forwards;	
+	animation: threeForward ease-in .25s forwards;	
 }
 
 .line1-reverse {
-	animation: oneReverse ease-in .2s forwards;
+	animation: oneReverse ease-in .25s forwards;
 }
 
 .line3-reverse {
-	animation: threeReverse ease-in .2s forwards;	
+	animation: threeReverse ease-in .25s forwards;	
 }
 
 /* nav animation */
+
+@keyframes menu-down {
+	0% { transform: translate(0,-150px); }
+	100% { transform: translate(0,0); }
+}
+
+@keyframes menu-up {
+	0% { transform: translate(0,0); }
+	100% { transform: translate(0,-150px); }	
+}
+
+.menu-down {
+	animation: menu-down ease-in .25s forwards;
+}
+
+.menu-up {
+	animation: menu-up ease-in .25s forwards;
+}
 
 /* Translating this is causing issues with the logo and hamburger icon */
 nav ul {
@@ -219,6 +237,7 @@ nav ul {
 	color: var(--text-primary);
 	transform: translate(0,-150px);
 	z-index: -100;
+	box-shadow: 5px 5px 10px rgba(125,125,125,.6);
 }
 
 nav ul li {
