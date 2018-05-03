@@ -1,12 +1,8 @@
 <?php
 	require_once 'includes/partials/header.php';
 ?>
-
+<main>
 	<div>
-			
-		<?php
-			require_once 'dialog_pages/adminLogin.php';
-		?>
 		<div class="background-image"></div>
 		<div id="options">
 			<ul>
@@ -23,6 +19,6 @@
 		</div>	
 		
 	</div>	
-
+</main>
 <?php
 	require_once 'includes/partials/footer.php';
