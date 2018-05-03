@@ -2,10 +2,9 @@
 	require_once "includes/partials/header.php";
 ?>
 <main>
-	<div id="login_box">
 	<div id="login_content">
-		<form id="login_form" method="post">
 		<h1>Login</h1>
+		<form id="login_form" method="post">
 		<label>Username</label>
 				<input type="text" name="username" value="" placeholder="Your Username">
 		<label>Password</label>
@@ -19,7 +18,6 @@
 			<div id="error">
 			</div>
 	</div>
-</div>
 </main>
 <?php
 	require_once "includes/partials/footer.php";
