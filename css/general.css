@@ -284,10 +284,6 @@ footer {
 /* This media query is more for the background image and won't be necessary on most pages */
 
 @media (min-width: 500px){
-	.menu-up {
-		animation-name: none;
-	}
-
 	.background-image {
 		background-image: url("../images/background-tablet.png");
 		background-size: cover;
@@ -301,6 +297,10 @@ footer {
 }
 
 @media (min-width: 1100px){
+	.menu-up {
+		animation-name: none;
+	}
+	
 	/* Layout */
 	body {
 		grid-template-columns: 200px 1fr;
