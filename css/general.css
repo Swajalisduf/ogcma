@@ -236,6 +236,7 @@ nav ul {
 	color: var(--text-primary);
 	transform: translate(0,-150px);
 	z-index: -100;
+	position: relative; /* z-index will fail in Chrome without this */
 	box-shadow: 5px 5px 10px rgba(125,125,125,.6);
 }
 
@@ -283,6 +284,10 @@ footer {
 /* This media query is more for the background image and won't be necessary on most pages */
 
 @media (min-width: 500px){
+	.menu-up {
+		animation-name: none;
+	}
+
 	.background-image {
 		background-image: url("../images/background-tablet.png");
 		background-size: cover;
