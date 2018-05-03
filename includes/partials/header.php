@@ -15,6 +15,8 @@
 <html lang="en">
 	<head>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<-- Don't forget the meta viewport element, that's what makes css work right on phones and other smaller devices. To learn more about how this works https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<?=Header::getTitle($title, $page);?>
 		
 		<link href="css/reset.css" rel="stylesheet" type="text/css" />		
