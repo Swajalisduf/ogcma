@@ -8,12 +8,12 @@ class Login {
 			for(const input of inputs){
 				credentials[input.name] = input.value;
 			}
-			console.log(credentials);
+			
 			$.post('admin/checkCredentials.php', credentials, (data) => {
 				if(data.status == 'true'){
 					//In order to make sure that a given person can't just change their sessionStorage login to true (like through the console) to access a page that requires a login a unique token that the database could recognize for that individual user. If this project ever gets to that scale then you can address this potential issue.
 					sessionStorage.login = 'true';
-					window.location.href = sessionStorage.getItem('redirect');
+					window.location.href = sessionStorage.redirect;
 					
 					//For future reference: Should hide the links and then show them; to make this more secure you would have to send them through php 
 				} else if (data.status == 'false') {
@@ -32,13 +32,6 @@ class Login {
 		});
 			
 	} //end submitClick
-
-	getRedirect() {
-		let input = document.getElementsByName('redirect')[0];
-		let url = window.location.href;
-		console.log(url);
-		input.value = '';
-	}
 }
 
 $(document).ready( ()=> {
