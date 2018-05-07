@@ -86,5 +86,16 @@ const checkKey = (e) => {
   }
 }
 
+//Confirm Login
+const CheckLogin = {
+  checkLogin: () => { 
+    if(!sessionStorage.login || sessionStorage.login == 'false'){
+      sessionStorage.redirect = window.location.href;
+      window.location.href = 'login.php?page=login';
+    }
+  }
+}
+
+CheckLogin.checkLogin();
 document.addEventListener('DOMContentLoaded', initialize);
 document.onkeydown = checkKey;

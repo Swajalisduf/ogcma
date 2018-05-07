@@ -11,10 +11,14 @@ if(!empty($_POST['password'])){
 	$login = new Login;
 	$checkedCredentials = $login->checkLogin($user);
 	$response = [];
+	$response['redirect'] = filter_input(INPUT_POST, 'redirect', FILTER_SANITIZE_STRING);
 
 	// var_dump($login->checkUsername($user['username']));
 	// var_dump($login->checkPassword($user['username'], $user['password']));
 
+	if($checkedCredentials){
+
+	}
 	switch($checkedCredentials){
 		case(1):
 			$response['status'] = 'true';

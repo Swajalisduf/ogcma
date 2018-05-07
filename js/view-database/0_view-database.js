@@ -404,6 +404,19 @@ class Functions {
 	}
 } //end Functions
 
+//Confirm login
+
+const CheckLogin = {
+	checkLogin: () => {	
+		if(!sessionStorage.login || sessionStorage.login == 'false'){
+			sessionStorage.redirect = window.location.href;
+			window.location.href = 'login.php?page=login';
+		}
+	}
+}
+
+CheckLogin.checkLogin();
+
 $(document).ready(function(){
 	const database = new Database;
 	const functions = new Functions;

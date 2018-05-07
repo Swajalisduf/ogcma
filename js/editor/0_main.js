@@ -1,3 +1,16 @@
+//Confirm login
+
+const CheckLogin = {
+	checkLogin: () => {	
+		if(!sessionStorage.login || sessionStorage.login == 'false'){
+			sessionStorage.redirect = window.location.href;
+			window.location.href = 'login.php?page=login';
+		}
+	}
+}
+
+CheckLogin.checkLogin();
+
 document.addEventListener('DOMContentLoaded', () => {
 	let button = document.querySelector('button');
 	let modeHeading = document.getElementById('mode');
