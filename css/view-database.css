@@ -87,7 +87,7 @@ h1 {
 }
 
 .usages thead {
-	z-index: 1000;
+	z-index: 10;
 }
 
 .usages td:last-child {
