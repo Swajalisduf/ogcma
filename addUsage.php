@@ -1,6 +1,7 @@
 <?php
 	require_once 'includes/partials/header.php';
 ?>
+<main>
 	<img src="images/background.png">
 	<div class="dialog">
 		<div class="dialog-content">
@@ -43,5 +44,6 @@
 			</div>
 		</div>
 	</div>
+</main>
 <?php
 	require_once 'includes/partials/footer.php';
