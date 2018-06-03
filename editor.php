@@ -10,6 +10,9 @@
 	if(!$filename){
 		exit('There is no filename associated with this user');
 	}
+	if(!$textfile){
+		exit('There is no textfile to edit');
+	}
 ?>
 		<!-- Need to set up CSS so the page is a two column layout with header on left and main on right -->
 		<main>
