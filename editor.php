@@ -6,6 +6,10 @@
 	$read = new Read;
 	$filename = $read->getFilename($user_id);
 	$textfile = Read::getTextContents($filename);
+
+	if(!$filename){
+		exit('There is no filename associated with this user');
+	}
 ?>
 		<!-- Need to set up CSS so the page is a two column layout with header on left and main on right -->
 		<main>
