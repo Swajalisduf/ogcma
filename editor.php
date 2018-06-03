@@ -6,6 +6,10 @@
 	$read = new Read;
 	$filename = $read->getFilename($user_id);
 	$textfile = Read::getTextContents($filename);
+
+	if(!$textfile){
+		exit('There is no textfile to edit');
+	}
 ?>
 		<!-- Need to set up CSS so the page is a two column layout with header on left and main on right -->
 		<main>

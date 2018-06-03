@@ -1,5 +1,9 @@
 <?php
 	require_once "includes/partials/header.php";
+
+	if($_SESSION['loggedIn'] == true){
+		header('Location: index.php');
+	}
 ?>
 <main>
 	<div id="login_content">
