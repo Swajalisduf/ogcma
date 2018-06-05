@@ -1,0 +1,74 @@
+/* h1 and allSearch bar*/
+
+h1 {
+	font-family: forum;
+	height: 50px;
+	margin-bottom: 25px;
+	margin-left: 5px;
+	padding: 3vh 0 0 50px;
+	font-size: 24pt;
+	text-decoration: underline;
+	width: 80%;
+}
+
+.allSearch {
+	width: 20%;
+	height: 25px;
+	margin: 3vh 50px 25px 65px;
+}
+
+#container2 > div:first-child {
+	display: flex;
+}
+
+/* highlight searched text */
+
+.highlight {
+	background-color: #ADD8E6;
+}
+
+/* Warning Container */
+
+.warningContainer {
+	position: relative;
+}
+
+.warning {
+	display: block;
+	font-size: smaller;
+	left: -160px;
+	padding: 10px;
+	position: absolute;
+	width: 150px;
+	top: -10px;
+	z-index: 1;
+	background-color: #FF0000;
+}
+
+.sort {
+	width: 50px;
+	border-right: 2px solid #d3d3d3;
+	vertical-align: top;
+	left: 50px;
+}
+
+.sort:hover {
+	cursor: pointer !important;
+}
+
+.sort li:hover {
+	background-color: #d3d3d3 !important;
+}
+
+.sort li {
+	list-style-type: none;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+}
+
+.sort, .summary, .detailed, .divider {
+	display: inline-block;
+	/* Height needs to be the height of the window -75px. Must use Javascript*/
+	/* height: 94vh; */
+	position: relative;
+}
