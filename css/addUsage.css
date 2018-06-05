@@ -3,14 +3,14 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-header {
+/* header {
 	width: 250px;
 	height: 400px;
 	background-color: #001E4C;
 	position: fixed;
 	left: 250px;
 	box-shadow: 5px 5px 10px rgba(125,125,125,.6);
-}
+} */
 
 textarea {
     resize: none;
@@ -151,6 +151,10 @@ button:hover {
 
 img {
 	width: 100%;
+}
+
+.backgroundImage{
+	height: 100%;
 }
 
 .addButton {
