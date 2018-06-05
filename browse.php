@@ -1,5 +1,12 @@
 <?php
+	ini_set('display_errors', 1);
+	ini_set('display_startup_errors', 1);
+	error_reporting(E_ALL);
+
 	require_once 'includes/partials/header.php';
+	
+	$read = new Read;
+	$usages = $read->getEntries();
 ?>
 
 <div id="container2">
