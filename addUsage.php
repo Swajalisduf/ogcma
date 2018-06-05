@@ -2,7 +2,7 @@
 	require_once 'includes/partials/header.php';
 ?>
 <main>
-	<img src="images/background.png">
+	<img class="backgroundImage" src="images/background.png">
 	<div class="dialog">
 		<div class="dialog-content">
 			<form>
