@@ -19,7 +19,7 @@
 							<li>E</li>
 							<li>F</li>
 							<li>G</li>
-							<li><a href="browseH.php">H</a></li>
+							<li>H</li>
 							<li>I</li>
 							<li>J</li>
 							<li>K</li>
