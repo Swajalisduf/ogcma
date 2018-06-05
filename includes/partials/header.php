@@ -41,7 +41,7 @@
 					</div>
 				</div>
 				<ul>
-					<li id="browse">Browse</li>
+					<li id="browse"><a href="browse.php?page=browse">Browse</a></li>
 					<li><a href="admin.php?page=admin">Admin</a></li>
 					<li>About</li>					
 				</ul>
