@@ -9,7 +9,7 @@
 	$usages = $read->getEntries();
 ?>
 
-<div id="container2">
+<!--<div id="container2">-->
 	<main>
 		<img class='top-image' src='images/background_top_1300px.png' alt='background'>
 		<div>
@@ -49,7 +49,7 @@
 				</div>
 			</div>
 	</main>
-</div>
+<!--</div>-->
 
 <?php
 	require_once 'includes/partials/footer.php';
