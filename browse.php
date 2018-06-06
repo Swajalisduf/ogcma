@@ -9,8 +9,8 @@
 	$usages = $read->getEntries();
 ?>
 
-<main>
-	<div id="container2">
+<div id="container2">
+	<main>
 		<img class='top-image' src='images/background_top_1300px.png' alt='background'>
 		<div>
 			<h1>Welcome to the Catalog of all the References</h1>
@@ -48,8 +48,8 @@
 					</ul>
 				</div>
 			</div>
-	</div>
-</main>
+	</main>
+</div>
 
 <?php
 	require_once 'includes/partials/footer.php';
