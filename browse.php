@@ -9,8 +9,8 @@
 	$usages = $read->getEntries();
 ?>
 
-<div id="container2">
-	<main>
+<main>
+	<div id="container2">
 		<img class='top-image' src='images/background_top_1300px.png' alt='background'>
 		<div>
 			<h1>Welcome to the Catalog of all the References</h1>
@@ -48,7 +48,7 @@
 						</ul>
 					</div>
 				</div>
-</div>
+	<div>
 </main>
 
 <?php
