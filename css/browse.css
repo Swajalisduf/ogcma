@@ -17,6 +17,20 @@ h1 {
 	margin: 3vh 50px 25px 65px;
 }
 
+#container2::before, #container2::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#container2 {
+	position: absolute;
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 250px;
+	height: 100vh;
+}
+
 #container2 > div:first-child {
 	display: flex;
 }
