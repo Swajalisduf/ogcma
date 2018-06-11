@@ -1,15 +1,14 @@
 <?php
-	//ini_set('display_errors', 1);
-	//ini_set('display_startup_errors', 1);
-	//error_reporting(E_ALL);
+	ini_set('display_errors', 1);
+	ini_set('display_startup_errors', 1);
+	error_reporting(E_ALL);
 
 	require_once 'includes/partials/header.php';
 	
-	//$read = new Read;
-	//$usages = $read->getEntries();
+	$read = new Read;
+	$usages = $read->getEntries();
 ?>
-
-
+	
 <main>
 	<img class='background-image' src='images/background_top_1300px.png' alt='background'>
 	<div>
@@ -47,9 +46,49 @@
 				<li>Z</li>
 			</ul>
 		</div>
-	</div>	
+		<div class="summary clearfix">
+			<div class="table-scroll clearfix">
+				<table class="usages">
+					<thead class="line2 sum_head">
+						<tr>
+							<th>Serial #</th>
+							<th>Title</th>
+							<th class="thead-third">Author</th>
+						</tr>
+					</thead>
+					<tbody class="sum_body">
+						<?php
+							foreach($usages as $item){
+								$case = "summary";
+								$item->displayEntries($case);
+							};
+						?>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<div class="divider">
+		</div>
+			
+		<div class= "detailed clearfix">
+			<div class="table-scroll clearfix">	
+				<table>
+					<thead class= "details_head">
+						<tr>
+							<th></th>
+							<th>Details</th>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody class="details">
+						<!--use $.get to fill this-->
+					</tbody>
+					
+				</table>	
+			</div>
+		</div>
+	</div>
 </main>
-
-
 <?php
-	require_once 'includes/partials/footer.php';
+require_once 'includes/partials/footer.php';
