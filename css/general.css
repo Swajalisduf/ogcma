@@ -282,6 +282,7 @@ footer {
 		background-image: url("../images/background-phone.png");
 		background-size: cover;
 		background-repeat: no-repeat;
+		width: 100%;
 	}
 }
 
@@ -293,6 +294,7 @@ footer {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 75%;
+		width: 100%;
 	}
 
 	nav > div:first-child {
@@ -342,6 +344,7 @@ footer {
 		background-image: url("../images/background.png");
 		background-size: cover;
 		background-repeat: no-repeat;
+		width: 100%;
 	}
 
 	.logo {
