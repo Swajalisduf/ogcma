@@ -15,6 +15,8 @@
 	<div>
 		<h1>Welcome to the Catalog of all the References</h1>
 		<input class="allSearch" type="text" name="allSearch" placeholder="Search All Usages">
+	</div>
+	<div>
 		<div class="sort">
 			<ul class="clearfix">
 				<li>A</li>
@@ -45,7 +47,7 @@
 				<li>Z</li>
 			</ul>
 		</div>
-	</div>
+	</div>	
 </main>
 
 
