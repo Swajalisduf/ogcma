@@ -1,5 +1,7 @@
 /* h1 and allSearch bar*/
 
+.
+
 h1 {
 	font-family: forum;
 	height: 50px;
@@ -17,7 +19,7 @@ h1 {
 	margin: 3vh 50px 25px 65px;
 }
 
-#container2::before, #container2::after {
+/* #container2::before, #container2::after {
 	content: "";
 	display: block;
 	clear: both;
@@ -33,7 +35,7 @@ h1 {
 
 #container2 > div:first-child {
 	display: flex;
-}
+} */
 
 /* highlight searched text */
 
@@ -59,11 +61,24 @@ h1 {
 	background-color: #FF0000;
 }
 
+.wrapper{
+	display: grid;
+	grid-template-columns: 25px 5000px; 
+	grid-gap: 100px;
+	grid-template-areas:
+		"sidebar references references"
+}
+
+.references {
+	grid-area: references;
+}
+
 .sort {
 	width: 50px;
 	border-right: 2px solid #d3d3d3;
 	vertical-align: top;
 	left: 50px;
+	grid-area: sidebar;
 }
 
 .sort:hover {
