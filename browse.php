@@ -291,7 +291,20 @@
 		<div>
 		<div id="G">
 			<ul>
-				<li>
+				<li><a href="">Galatea</a>, see also <a href="">Pygmalion</a> or <a href="">Acis</a></li>
+				<li><a href="">Ganymede</a></li>
+				<li><a href="">Ge</a>, see <a href="">Gaia</a></li>
+				<li><a href="">Giants</a>, see <a href="">TitansGiants</a></li>
+				<li><a href="">Glauce</a>, see <a href="">Medea</a></li>
+				<li><a href="">Glaucus</a></li>
+				<li><a href="">GodsGoddesses</a></li>
+				<li><a href="">GodsGoddessesConflictVice&Virtue</a></li>
+				<li><a href="">GodsGoddessesElements</a></li>
+				<li><a href="">GodsGoddessesLoves</a></li>
+				<li><a href="">GodsGoddessesSeasons</a></li>
+				<li><a href="">Gorgon</a>, see <a href="">Medusa</a></li>
+				<li><a href="">Graces</a></li>
+				<li><a href="">Graiae</a>, see <a href="">PerseusMedusa</a></li>
 			</ul>
 		<div>
 		<div id="H">
