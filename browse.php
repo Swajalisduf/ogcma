@@ -379,7 +379,24 @@
 		<div>
 		<div id="I">
 			<ul>
-				<li>
+				<li><a href="">Iarbas</a>, see <a href="">Dido</a></li>
+				<li><a href="">Icarius</a>, see <a href="">Erigone</a></li>
+				<li><a href="">IcarusDaedalus</a></li>
+				<li><a href="">Idas</a>, see <a href="">ApolloLoves</a></li>
+				<li><a href="">Idomeneus</a></li>
+				<li><a href="">Ino</a>, see <a href="">AthamasIno</a></li>
+				<li><a href="">Io</a></li>
+				<li><a href="">Iole</a>, see <a href="">HeraclesIole</a></li>
+				<li><a href="">Ion</a>, see <a href="">CreusaIon</a></li>
+				<li><a href="">Iphigenia</a></li>
+				<li><a href="">IphigeniaAulis</a></li>
+				<li><a href="">IphigeniaDelphi</a></li>
+				<li><a href="">IphigeniaTauris</a></li>
+				<li><a href="">Iphimedia</a>, see <a href="">ApolloLoves</a></li>
+				<li><a href="">Iris</a></li>
+				<li><a href="">Ismene</a>, see <a href="">Antigone</a></li>
+				<li><a href="">Isse</a>, see <a href="">ApolloLoves</a></li>
+				<li><a href="">Ixion</a></li>
 			</ul>
 		<div>
 		<div id="J">
