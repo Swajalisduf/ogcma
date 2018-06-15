@@ -309,7 +309,72 @@
 		<div>
 		<div id="H">
 			<ul>
-				<li>
+				<li><a href="">Hades</a></li>
+				<li><a href="">Hades (son of Cronus)</a></li>
+				<li><a href="">Hades</a>, see either <a href="">Hades (son of Cronus)</a> or <a href="">Hades</a></li> Why the seperate Hades?
+				<li><a href="">Harmonia</a>, see <a href="">Cadmus</a></li>
+				<li><a href="">Harpies</a></li>
+				<li><a href="">Hebe</a></li>
+				<li><a href="">Hecate</a></li>
+				<li><a href="">Hecatoncheires</a>, see <a href="">TitansGiants</a></li>
+				<li><a href="">Hector</a></li>
+				<li><a href="">HectorDeath</a></li>
+				<li><a href="">Hecuba</a>, see <a href="">TrojanWarFall</a></li>
+				<li><a href="">Helen [of Troy]</a></li>
+				<li><a href="">Helenus</a>, see <a href="">AeneasWanderings</a></li>
+				<li><a href="">Helios</a>, see <a href="">ApolloSunGod</a></li>
+				<li><a href="">Helle</a>, see <a href="">AthamasIno</a></li>
+				<li><a href="">Hephaestus</a></li>
+				<li><a href="">Hera</a></li>
+				<li><a href="">HeracleCacus</a></li>
+				<li><a href="">Heracles</a></li>
+				<li><a href="">HeraclesAntaeus</a></li>
+				<li><a href="">HeraclesApotheosis</a></li>
+				<li><a href="">HeraclesBirth</a></li>
+				<li><a href="">HeraclesChoice</a></li>
+				<li><a href="">HeraclesDeath</a></li>
+				<li><a href="">HeraclesDeianeira</a></li>
+				<li><a href="">HeraclesInfancy</a></li>
+				<li><a href="">HeraclesIole</a></li>
+				<li><a href="">HeraclesLabors</a></li>
+				<li><a href="">HeraclesLaborsAugeanStables</a></li>
+				<li><a href="">HeraclesLaborsCerberus</a></li>
+				<li><a href="">HeraclesLaborsCeryneianHind</a></li>
+				<li><a href="">HeraclesLaborsCretanBull</a></li>
+				<li><a href="">HeraclesLaborsDiomedesMares</a></li>
+				<li><a href="">HeraclesLaborsErymanthianBoar</a></li>
+				<li><a href="">HeraclesLaborsGeryonCattle</a></li>
+				<li><a href="">HeraclesLaborsHesperidesApples</a></li>
+				<li><a href="">HeraclesLaborsHippolytaGirdle</a></li>
+				<li><a href="">HeraclesLaborsLernaeanHydra</a></li>
+				<li><a href="">HeraclesLaborsNemeanLion</a></li>
+				<li><a href="">HeraclesLaborsStymphalianBirds</a></li>
+				<li><a href="">HeraclesMadness</a></li>
+				<li><a href="">HeraclesOmphale</a></li>
+				<li><a href="">HeraclesPillars</a></li>
+				<li><a href="">Hermaphroditus</a></li>
+				<li><a href="">Hermes</a></li>
+				<li><a href="">HermesInfancy</a></li>
+				<li><a href="">HeroLeander</a></li>
+				<li><a href="">HerseAglaurus</a></li>
+				<li><a href="">Hesione</a>, see <a href="">Laomedon</a></li>
+				<li><a href="">Hesperides</a></li>
+				<li><a href="">Hesperus</a></li>
+				<li><a href="">Hestia</a></li>
+				<li><a href="">Hipomenes</a>, see <a href="">Atalanta</a></li>
+				<li><a href="">Hippodamia</a>, see <a href="">PirithousHippodamia</a></li>
+				<li><a href="">Hippodamia</a>, see <a href="">PirithousWedding</a></li> Add this to the one above?
+				<li><a href="">Hippolyta</a>, see <a href="">Amazons or <a href="">HeraclesHippolytaGirdle</a></li>
+				<li><a href="">Hippolytus</a>, see <a href="">PhaedraHippolytus</a></li>
+				<li><a href="">Hyacinth</a></li>
+				<li><a href="">Hygieia</a>, see <a href="">AsclepiusHygieia</a></li> 
+				<li><a href="">Hygieia</a>, see <a href="">AsclepiusHygieia</a></li>Keep this duplicate?
+				<li><a href="">Hylas</a>, see <a href="">JasonHylas</a></li>
+				<li><a href="">Hylomene</a></li>
+				<li><a href="">Hymen</a></li>
+				<li><a href="">Hyperion</a></li>
+				<li><a href="">Hypermnestra</a>, see <a href="">Danaids</a></li>
+				<li><a href="">Hypsipyle</a>, see <a href="">JasonHypsipyle</a></li>
 			</ul>
 		<div>
 		<div id="I">
