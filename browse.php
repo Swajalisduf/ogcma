@@ -104,7 +104,7 @@
 				<li><a href="">Antinous</a>, see <a href="">OdysseusReturn</a></li>
 				<li><a href="">Antiope</a></li>
 				<li><a href="">AntiopeDirce</a></li>
-				<li><a href="">Aphrodite</a></li>
+				<li><a href="">Aphrodite</a></li> Keep this duplicate?
 				<li><a href="">Aphrodite</a>, see <a href="">AresAphrodite</a></li> <!--Ask if this should be combined with the one above--> 
 				<li><a href="">AphroditeAnchises</a></li>
 				<li><a href="">AphroditeBirth</a></li>
@@ -223,7 +223,25 @@
 		<div>
 		<div id="D">
 			<ul>
-				<li>
+				<li><a href="">Daedalus</a>, see <a href="">IcarusDaedalus</a></li>
+				<li><a href="">Damon</a>, see <a href="">ShepherdsShepherdesses</a></li>
+				<li><a href="">Danaë</a></li>
+				<li><a href="">Danaids</a></li>
+				<li><a href="">Daphne</a></li>
+				<li><a href="">DaphnisChloe</a></li>
+				<li><a href="">Deidamia</a>, see <a href="">AchillesScyros</a></li>
+				<li><a href="">Demeter</a></li>
+				<li><a href="">Demophon</a></li>
+				<li><a href="">Deneira</a>, see <a href="">HeraclesDeneira</a></li>
+				<li><a href="">DeucalionPyrrha</a></li>
+				<li><a href="">Dido</a></li>
+				<li><a href="">Dido</a></li> Keep this duplicate?
+				<li><a href="">Diomedes</a></li>
+				<li><a href="">Dionysus</a></li>
+				<li><a href="">DionysusAriadne</a></li>
+				<li><a href="">DionysusInfancy</a></li>
+				<li><a href="">DionysusPirates</a></li>
+				<li><a href="">Dioscuri</a></li>
 			</ul>
 		<div>
 		<div id="E">
