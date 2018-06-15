@@ -280,7 +280,13 @@
 		<div>
 		<div id="F">
 			<ul>
-				<li>
+				<li><a href="">Fates</a></li>
+				<li><a href="">Fauns</a>, see <a href="">SatyrsFauns</a></li>
+				<li><a href="">Fauns</a>, see <a href="">SatyrsFauns</a></li> Keep this duplicate?
+				<li><a href="">Faunus</a>, see <a href="">Pan</a></li>
+				<li><a href="">Feast of the Gods</a>, see <a href="">GodsGoddesses</a></li>
+				<li><a href="">Flora</a></li>
+				<li><a href="">FloraZephyr</a></li>
 			</ul>
 		<div>
 		<div id="G">
