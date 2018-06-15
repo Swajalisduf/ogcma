@@ -246,7 +246,37 @@
 		<div>
 		<div id="E">
 			<ul>
-				<li>
+				<li><a href="">Echo, see <a href="">Narcissus</a></li>
+<li><a href="">Electra</a></li>
+<li><a href="">ElectraPleiad</a></li>
+<li><a href="">Elysium</a></li>
+<li><a href="">Encaldus</a></li>
+<li><a href="">Endymion</a></li>
+<li><a href="">Eos</a></li>
+<li><a href="">EosTithonus</a></li>
+<li><a href="">Ephesus, Widow of</a>, see <a href="">EphesusWidow</a></li> Should I just connect these?
+<li><a href="">Epimetheus</a>, see <a href="">Pandora</a></li>
+<li><a href="">Erato</a>, see <a href="">MusesPoetryErato</a></li>
+<li><a href="">Erichthonius</a></li>
+<li><a href="">Erigone</a></li>
+<li><a href="">Erinyes</a>, see <a href="">Furies</a></li>
+<li><a href="">Eriphyle</a></li>
+<li><a href="">Eros</a></li>
+<li><a href="">ErosAnteros</a></li>
+<li><a href="">ErosBee</a></li>
+<li><a href="">ErosEducation</a></li>
+<li><a href="">ErosPunishment</a></li>
+<li><a href="">ErosTriumphant</a></li>
+<li><a href="">Eteocles</a>, see <a href="">SevenAgainstThebes</a></li>
+<li><a href="">Europa</a></li>
+<li><a href="">Euryalus</a>, see <a href="">AeneasLatium</a></li>
+<li><a href="">Eurydice</a>, see <a href="">OrpheusEurydice</a></li>
+<li><a href="">Eurystheus</a>, see <a href="">HeraclesBirth</a></li>
+<li><a href="">Eurytion</a></li>
+<li><a href="">Euterpe</a>, see <a href="">MusesPoetryEuterpe</a></li>
+<li><a href="">Evadne</a>, see <a href="">ApolloLoves</a></li>
+<li><a href="">Evander</a>, see <a href="">AeneasLatium</a></li>
+
 			</ul>
 		<div>
 		<div id="F">
