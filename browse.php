@@ -690,12 +690,17 @@
 		<div>
 		<div id="U">
 			<ul>
-				<li>
+				<li><a href="">Ulysseus</a>, see <a href="">Odysseus</a></li>
+				<li><a href="">Urania</a>, see <a href="">MusesAstronomyUrania</a></li>
+				<li><a href="">Uranus</a></li>
 			</ul>
 		<div>
 		<div id="V">
 			<ul>
-				<li>
+				<li><a href="">Venus</a>, see <a href="">Aphrodite</a></li>
+				<li><a href="">Vertumnus</a></li>
+				<li><a href="">Vesta</a>, see <a href="">Hestia</a></li>
+				<li><a href="">Vulcan</a>, see <a href="">Hephaestus</a></li>
 			</ul>
 		<div>
 		<div id="W">
