@@ -643,7 +643,49 @@
 		<div>
 		<div id="T">
 			<ul>
-				<li>
+				<li><a href="">Tantalus</a></li>
+				<li><a href="">Tartarus</a>, see <a href="">Hades</a></li>
+				<li><a href="">Telegonus</a>, see <a href="">OdysseusDeath</a></li>
+				<li><a href="">Telemachus</a></li>
+				<li><a href="">Telephontes</a>, see <a href="">Merope</a></li>
+				<li><a href="">Tellus</a>, see <a href="">Gaia</a></li>
+				<li><a href="">Tereus</a>, see <a href="">PhilomelaProcne</a></li>
+				<li><a href="">Terpsichore</a>, see <a href="">MusesDanceTerpsichore</a></li>
+				<li><a href="">Tethys</a>, see <a href="">Oceanus</a></li>
+				<li><a href="">Thalia</a>, see <a href="">Graces</a></li>
+				<li><a href="">Thamyris</a>, see <a href="">Hyacinth</a></li>
+				<li><a href="">Thanatos</a>, see <a href="">Alcestis</a></li>
+				<li><a href="">TheagenesChariclea</a></li>
+				<li><a href="">Theophane</a>, see <a href="">PoseidonLoves</a></li>
+				<li><a href="">Thersites</a>, see <a href="">TrojanWar</a></li>
+				<li><a href="">Theseus</a></li>
+				<li><a href="">TheseusAchelous</a></li>
+				<li><a href="">TheseusAmazons</a></li>
+				<li><a href="">TheseusAthens</a></li>
+				<li><a href="">TheseusHelen</a></li>
+				<li><a href="">TheseusTroezen</a></li>
+				<li><a href="">TheseusVoyage</a></li>
+				<li><a href="">Thetis</a></li>
+				<li><a href="">ThetisPeleus</a></li>
+				<li><a href="">Thisbe</a>, see <a href="">PyramusThisbe</a></li>
+				<li><a href="">Thisbe</a>, see <a href="">PyramusThisbe</a></li> Keep this duplicate?
+				<li><a href="">Thyestes</a>, see <a href="">AtreusThyestes</a></li>
+				<li><a href="">Thyestes</a>, see <a href="">AtreusThyestes</a></li> Keep this duplicate?
+				<li><a href="">Thyrsis</a>, see <a href="">ShepherdsShepherdesses</a></li>
+				<li><a href="">Tiresias</a></li>
+				<li><a href="">TitansGiants</a></li>
+				<li><a href="">Tmolus</a>, see <a href="">Midas</a></li>
+				<li><a href="">Triptolemus</a></li>
+				<li><a href="">Triton</a></li>
+				<li><a href="">TroilusCressida</a></li>
+				<li><a href="">TrojanWar</a></li>
+				<li><a href="">TrojanWarFall</a></li>
+				<li><a href="">TrojanWarWoodenHorse</a></li>
+				<li><a href="">TrojanWarWoodenHorse</a></li> Keep this duplicate?
+				<li><a href="">Tryphon</a></li>
+				<li><a href="">Turnus</a>, see <a href="">AeneasLatium</a></li>
+				<li><a href="">Tyndareus</a>, see <a href="">Leda</a></li>
+				<li><a href="">Tyro</a>, see <a href="">PoseidonLoves</a></li>
 			</ul>
 		<div>
 		<div id="U">
