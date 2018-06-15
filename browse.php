@@ -438,12 +438,45 @@
 				<li><a href="">Lycus*</a></li>
 				<li><a href="">Lyncus*</a></li>
 				<li><a href="">Lysistrata</a></li>
-
 			</ul>
 		<div>
 		<div id="M">
 			<ul>
-				<li>
+				<li><a href="">Maenads*</a></li>
+				<li><a href="">Maia*</a></li>
+				<li><a href="">Marpessa*</a></li>
+				<li><a href="">Mars</a>, see <a href="">Ares</a></li>
+				<li><a href="">Marsyas</a></li>
+				<li><a href="">Medea</a></li>
+				<li><a href="">Medusa</a></li>
+				<li><a href="">Megara*</a></li>
+				<li><a href="">Melantho*</a></li>
+				<li><a href="">Meleager</a></li>
+				<li><a href="">MeleagerCalydonianBoar</a></li>
+				<li><a href="">Meliboeus*</a></li>
+				<li><a href="">Melpomene*</a></li>
+				<li><a href="">Memnon</a></li>
+				<li><a href="">Menelaus</a></li>
+				<li><a href="">Mercury</a>, see <a href="">Hermes</a></li>
+				<li><a href="">MeropeCresphontes</a></li>
+				<li><a href="">MeropePleiad</a></li>
+				<li><a href="">Metaneira*</a></li>
+				<li><a href="">Mezentius*</a></li>
+				<li><a href="">Midas</a></li>
+				<li><a href="">Minerva, see <a href="">Athena</a></li>
+				<li><a href="">Minos</a></li>
+				<li><a href="">Minotaur</a></li>
+				<li><a href="">Mnemosyne</a></li>
+				<li><a href="">Moirai, see <a href="">Fates</a></li>
+				<li><a href="">Muses</a></li>
+				<li><a href="">MusesAstronomyUrania</a></li>
+				<li><a href="">MusesDanceTerpsichore</a></li>
+				<li><a href="">MusesDramaMelpomene</a></li>
+				<li><a href="">MusesHistoryClio</a></li>
+				<li><a href="">MusesPoetryErato</a></li>
+				<li><a href="">MusesPoetryEuterpe</a></li>
+				<li><a href="">MusesPoetryPolyhymnia</a></li>
+				<li><a href="">Myrrha</a></li>
 			</ul>
 		<div>
 		<div id="N">
