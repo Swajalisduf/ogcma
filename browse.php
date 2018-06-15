@@ -613,14 +613,11 @@
 				<li><a href="">Pyrrha</a>, see <a href="">DeucalionPyrrha</a></li>
 			</ul>
 		<div>
-		<div id="Q">
-			<ul>
-				<li>
-			</ul>
-		<div>
 		<div id="R">
 			<ul>
-				<li>
+				<li><a href="">Rhadamanthus</a>, see <a href="">Hades</a></li>
+				<li><a href="">Rhea</a>, see <a href="">Cronus</a> and <a href="">TitansGiants</a> and <a href="">ZeusInfancy</a></li>
+				<li><a href="">Rhesus</a>, see <a href="">Diomedes</a></li>
 			</ul>
 		<div>
 		<div id="S">
