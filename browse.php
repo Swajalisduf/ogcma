@@ -501,7 +501,35 @@
 		<div>
 		<div id="O">
 			<ul>
-				<li>
+				<li><a href="">Oceanids</a>, see <a href="">NymphsNereids</a></li>
+				<li><a href="">Oceanus</a></li>
+				<li><a href="">Odysseus</a></li>
+				<li><a href="">OdysseusCalypso</a></li>
+				<li><a href="">OdysseusCirce</a></li>
+				<li><a href="">OdysseusDeath</a></li>
+				<li><a href="">OdysseusLastVoyage</a></li>
+				<li><a href="">OdysseusLeucothea</a></li>
+				<li><a href="">OdysseusLotusEaters</a></li>
+				<li><a href="">OdysseusNausicaä</a></li>
+				<li><a href="">OdysseusPolyphemus</a></li>
+				<li><a href="">OdysseusReturn</a></li>
+				<li><a href="">OdysseusScyllaCharybdis</a></li>
+				<li><a href="">OdysseusSirens</a></li>
+				<li><a href="">OdysseusUnderworld</a></li>
+				<li><a href="">Oedipus</a></li>
+				<li><a href="">OedipusColonus</a></li>
+				<li><a href="">OedipusSphinx</a></li>
+				<li><a href="">Oenone</a>, see <a href="">Paris</a></li>
+				<li><a href="">Olympians</a>, see <a href="">GodsGoddesses</a> and <a href="">individuals</a></li> individuals doesn't have it's own category
+				<li><a href="">Olympus</a>, see <a href="">GodsGoddesses</a> and <a href="">Marsyas</a></li>
+				<li><a href="">Omphale</a>, see <a href="">HeraclesOmphale</a></li>
+				<li><a href="">Ops</a>, see <a href="">Cronus</a> and <a href="">Cybele</a></li>
+				<li><a href="">Orestes</a></li>
+				<li><a href="">Orion</a></li>
+				<li><a href="">Orithyia</a>, see <a href="">Boreas</a></li>
+				<li><a href="">Orpheus</a></li>
+				<li><a href="">OrpheusDeath</a></li>
+				<li><a href="">OrpheusEurydice</a></li>
 			</ul>
 		<div>
 		<div id="P">
