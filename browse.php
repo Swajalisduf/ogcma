@@ -534,7 +534,83 @@
 		<div>
 		<div id="P">
 			<ul>
-				<li>
+				<li><a href="">Palamedes</a></li>
+				<li><a href="">Palinurus</a>, see <a href="">AeneasUnderworld</a></li>
+				<li><a href="">Palladium</a>, see <a href="">Athena</a></li>
+				<li><a href="">PallasAthena</a>, see <a href="">Athena</a></li>
+				<li><a href="">Pallas</a>, see <a href="">AeneasLatium</a></li>
+				<li><a href="">Pan</a></li>
+				<li><a href="">Pandora</a></li>
+				<li><a href="">PanLoves</a></li>
+				<li><a href="">Paris</a></li>
+				<li><a href="">ParisHelen</a></li>
+				<li><a href="">ParisJudgment</a></li>
+				<li><a href="">Parnassus</a></li>
+				<li><a href="">Parthenope</a></li>
+				<li><a href="">Pasiphaë</a></li>
+				<li><a href="">Patroclus</a></li>
+				<li><a href="">Pegasus</a></li>
+				<li><a href="">Peleus</a>, see <a href="">ThesisPeleus</a> and <a href="">PeleusAchilles</a> and JasonArgonauts</a></li>
+				<li><a href="">Pelias</a>, see <a href="">Jason</a></li>
+				<li><a href="">Pelops</a>, see <a href="">Tantalus</a></li>
+				<li><a href="">Penelope</a>, see also <a href="">OdysseusReturn</a> and <a href="">Telemachus</a></li>
+				<li><a href="">Penthesileia</a></li>
+				<li><a href="">Pentheus</a></li>
+				<li><a href="">Persephone</a></li>
+				<li><a href="">PersephoneReturn</a></li>
+				<li><a href="">PersephoneSearch</a></li>
+				<li><a href="">Perseus</a></li>
+				<li><a href="">PerseusAndromeda</a></li>
+				<li><a href="">PerseusMedusa</a></li>
+				<li><a href="">PhaedraHippolytus</a></li>
+				<li><a href="">Phaethon</a></li>
+				<li><a href="">Philemon</a>, see <a href="">BaucisPhilemon</a></li>
+				<li><a href="">Philoctetes</a></li>
+				<li><a href="">PhilomelaProcne</a></li>
+				<li><a href="">Philyra</a>, see <a href="">Cronus</a></li>
+				<li><a href="">Phineus</a>, see <a href="">JasonPhineusHarpies</a> or <a href="">PerseusAndromeda</a></li>
+				<li><a href="">Phoebus Apollo</a>, see <a href="">ApolloSunGod</a></li>
+				<li><a href="">Phoenix</a></li>
+				<li><a href="">Pholus</a>, see <a href="">Centaurs</a></li>
+				<li><a href="">Phrixus</a>, see <a href="">AthamasIno</a></li>
+				<li><a href="">Phyllis</a>, see <a href="">Demophon</a> and <a href="">Shepherds</a></li>
+				<li><a href="">Phytalus</a>, see <a href="">PersephoneSearch</a></li>
+				<li><a href="">Pierides</a></li>
+				<li><a href="">Pirithous</a></li>
+				<li><a href="">PirithousWedding</a></li>
+				<li><a href="">Pitys</a>, see <a href="">PanLoves</a></li>
+				<li><a href="">Pleiades</a></li>
+				<li><a href="">Pluto</a>, see <a href="">Hades</a></li>
+				<li><a href="">Plutus</a></li>
+				<li><a href="">Pollux</a>, see <a href="">Dioscuri</a></li>
+				<li><a href="">Polydectes</a>, see <a href="">Danaë</a></li>
+				<li><a href="">Polydorus</a></li>
+				<li><a href="">Polyhymnia</a>, see <a href="">MusesPoetryPolyhymnia</a></li>
+				<li><a href="">Polymnestor</a>, see <a href="">Polydorus</a></li>
+				<li><a href="">Polyneices</a>, see <a href="">SevenAgainstThebes</a></li>
+				<li><a href="">Polyphemus</a>, see <a href="">OdysseusPolyphemus or <a href="">Galatea</a></li>
+				<li><a href="">Polyphontes</a>, see <a href="">Merope</a></li>
+				<li><a href="">Polyxena</a></li>
+				<li><a href="">Pomona</a></li>
+				<li><a href="">Porcne</a>, see <a href="">PhilomelaProcne</a></li>
+				<li><a href="">Poseidon</a></li>
+				<li><a href="">PoseidonLoves</a></li>
+				<li><a href="">Priam</a></li>
+				<li><a href="">Priapus</a></li>
+				<li><a href="">Procris</a>, see <a href="">CephalusProcris</a></li>
+				<li><a href="">Procrustes</a>, see <a href="">TheseusVoyage</a></li>
+				<li><a href="">Prometheus</a></li>
+				<li><a href="">PrometheusBound</a></li>
+				<li><a href="">PrometheusCreator</a></li>
+				<li><a href="">PrometheusFreed</a></li>
+				<li><a href="">Proserpina</a>, see <a href="">Persephone</a></li>
+				<li><a href="">ProtesilausLaodamia</a></li>
+				<li><a href="">Proteus</a></li>
+				<li><a href="">Psyche</a></li>
+				<li><a href="">Pygmalion</a></li>
+				<li><a href="">Pylades</a>, see <a href="">OrestesPylades</a></li>
+				<li><a href="">PyramusThisbe</a></li>
+				<li><a href="">Pyrrha</a>, see <a href="">DeucalionPyrrha</a></li>
 			</ul>
 		<div>
 		<div id="Q">
