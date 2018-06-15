@@ -622,7 +622,23 @@
 		<div>
 		<div id="S">
 			<ul>
-				<li>
+				<li><a href="">Salamacis</a>, see <a href="">Hermaphroditus</a></li>
+				<li><a href="">Sarpedon</a>, see <a href="">Patroclus</a></li>
+				<li><a href="">Saturn</a>, see <a href="">Cronus</a></li>
+				<li><a href="">SatyrsFauns</a></li>
+				<li><a href="">SatyrsNymphs</a></li>
+				<li><a href="">Scylla</a>, see <a href="">Minos</a> and <a href="">OdysseusScyllaCharybdis</a></li>
+				<li><a href="">Selene</a></li>
+				<li><a href="">Semele</a></li>
+				<li><a href="">SevenAgainstThebes</a></li>
+				<li><a href="">ShepherdsShepherdesses</a></li>
+				<li><a href="">Silenus</a></li>
+				<li><a href="">Sinon</a>, see <a href="">TrojanWarWoodenHorse</a></li>
+				<li><a href="">Sirens</a></li>
+				<li><a href="">Sisyphus</a></li>
+				<li><a href="">Sphinx</a>, see <a href="">OedipusSphinx</a></li>
+				<li><a href="">Styx</a>, see <a href="">Hades</a></li>
+				<li><a href="">Syrinx</a></li>
 			</ul>
 		<div>
 		<div id="T">
