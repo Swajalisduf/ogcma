@@ -414,14 +414,31 @@
 				<li><a href="">Jupiter</a>, see <a href="">Zeus</a></li>
 			</ul>
 		<div>
-		<div id="K">
-			<ul>
-				<li>
-			</ul>
-		<div>
 		<div id="L">
 			<ul>
-				<li>
+				<li><a href="">Laocoön</a></li>
+				<li><a href="">Laodamia</a>, see <a href="">ProtesilausLaodamia</a></li>
+				<li><a href="">Laomedon</a></li>
+				<li><a href="">Latinus</a>, see <a href="">AeneasLatium</a></li>
+				<li><a href="">Latona</a>, see <a href="">Leto</a></li>
+				<li><a href="">Lavinia</a>, see <a href="">AeneasLatium</a></li>
+				<li><a href="">Leander</a>, see <a href="">HeroLeander</a></li>
+				<li><a href="">Leander</a>, see <a href="">HeroLeander</a></li> Keep this duplicate?
+				<li><a href="">Leda</a></li>
+				<li><a href="">Lethe*</a></li>
+				<li><a href="">Leto</a></li>
+				<li><a href="">Leucothe*</a></li>
+				<li><a href="">Leucothea*</a></li>
+				<li><a href="">Lichas*</a></li>
+				<li><a href="">Luna</a></li>
+				<li><a href="">Lupa—Capitoline She-wolf*</a></li>
+				<li><a href="">Lycidas*</a></li>
+				<li><a href="">Lycomedes*</a></li>
+				<li><a href="">Lycoris*</a></li>
+				<li><a href="">Lycus*</a></li>
+				<li><a href="">Lyncus*</a></li>
+				<li><a href="">Lysistrata</a></li>
+
 			</ul>
 		<div>
 		<div id="M">
