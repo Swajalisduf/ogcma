@@ -220,7 +220,7 @@
 				<li><a href="">Cyparissus</a></li>
 				<li><a href="">Cythera</a>, see <a href="">AphroditeCythera</a></li>
 			</ul>
-		<div>
+		</div>
 		<div id="D">
 			<ul>
 				<li><a href="">Daedalus</a>, see <a href="">IcarusDaedalus</a></li>
@@ -243,7 +243,7 @@
 				<li><a href="">DionysusPirates</a></li>
 				<li><a href="">Dioscuri</a></li>
 			</ul>
-		<div>
+		</div>
 		<div id="E">
 			<ul>
 				<li><a href="">Echo, see <a href="">Narcissus</a></li>
@@ -277,7 +277,7 @@
 				<li><a href="">Evadne</a>, see <a href="">ApolloLoves</a></li>
 				<li><a href="">Evander</a>, see <a href="">AeneasLatium</a></li>
 			</ul>
-		<div>
+		</div>
 		<div id="F">
 			<ul>
 				<li><a href="">Fates</a></li>
@@ -288,7 +288,7 @@
 				<li><a href="">Flora</a></li>
 				<li><a href="">FloraZephyr</a></li>
 			</ul>
-		<div>
+		</div>
 		<div id="G">
 			<ul>
 				<li><a href="">Galatea</a>, see also <a href="">Pygmalion</a> or <a href="">Acis</a></li>
@@ -306,7 +306,7 @@
 				<li><a href="">Graces</a></li>
 				<li><a href="">Graiae</a>, see <a href="">PerseusMedusa</a></li>
 			</ul>
-		<div>
+		</div>
 		<div id="H">
 			<ul>
 				<li><a href="">Hades</a></li>
@@ -376,7 +376,7 @@
 				<li><a href="">Hypermnestra</a>, see <a href="">Danaids</a></li>
 				<li><a href="">Hypsipyle</a>, see <a href="">JasonHypsipyle</a></li>
 			</ul>
-		<div>
+		</div>
 		<div id="I">
 			<ul>
 				<li><a href="">Iarbas</a>, see <a href="">Dido</a></li>
@@ -398,7 +398,7 @@
 				<li><a href="">Isse</a>, see <a href="">ApolloLoves</a></li>
 				<li><a href="">Ixion</a></li>
 			</ul>
-		<div>
+		</div>
 		<div id="J">
 			<ul>
 				<li><a href="">Janus</a></li>
@@ -413,7 +413,7 @@
 				<li><a href="">Juno</a>, see <a href="">Hera</a></li> Keep this duplicate?
 				<li><a href="">Jupiter</a>, see <a href="">Zeus</a></li>
 			</ul>
-		<div>
+		</div>
 		<div id="L">
 			<ul>
 				<li><a href="">Laocoön</a></li>
@@ -439,7 +439,7 @@
 				<li><a href="">Lyncus*</a></li>
 				<li><a href="">Lysistrata</a></li>
 			</ul>
-		<div>
+		</div>
 		<div id="M">
 			<ul>
 				<li><a href="">Maenads*</a></li>
@@ -478,7 +478,7 @@
 				<li><a href="">MusesPoetryPolyhymnia</a></li>
 				<li><a href="">Myrrha</a></li>
 			</ul>
-		<div>
+		</div>
 		<div id="N">
 			<ul>
 				<li><a href="">Naiads</a>, see <a href="">NymphsNaiads</a></li>
@@ -498,7 +498,7 @@
 				<li><a href="">NymphsNaiads</a></li>
 				<li><a href="">NymphsNereids</a></li>
 			</ul>
-		<div>
+		</div>
 		<div id="O">
 			<ul>
 				<li><a href="">Oceanids</a>, see <a href="">NymphsNereids</a></li>
@@ -531,7 +531,7 @@
 				<li><a href="">OrpheusDeath</a></li>
 				<li><a href="">OrpheusEurydice</a></li>
 			</ul>
-		<div>
+		</div>
 		<div id="P">
 			<ul>
 				<li><a href="">Palamedes</a></li>
@@ -612,14 +612,14 @@
 				<li><a href="">PyramusThisbe</a></li>
 				<li><a href="">Pyrrha</a>, see <a href="">DeucalionPyrrha</a></li>
 			</ul>
-		<div>
+		</div>
 		<div id="R">
 			<ul>
 				<li><a href="">Rhadamanthus</a>, see <a href="">Hades</a></li>
 				<li><a href="">Rhea</a>, see <a href="">Cronus</a> and <a href="">TitansGiants</a> and <a href="">ZeusInfancy</a></li>
 				<li><a href="">Rhesus</a>, see <a href="">Diomedes</a></li>
 			</ul>
-		<div>
+		</div>
 		<div id="S">
 			<ul>
 				<li><a href="">Salamacis</a>, see <a href="">Hermaphroditus</a></li>
@@ -640,7 +640,7 @@
 				<li><a href="">Styx</a>, see <a href="">Hades</a></li>
 				<li><a href="">Syrinx</a></li>
 			</ul>
-		<div>
+		</div>
 		<div id="T">
 			<ul>
 				<li><a href="">Tantalus</a></li>
@@ -687,14 +687,14 @@
 				<li><a href="">Tyndareus</a>, see <a href="">Leda</a></li>
 				<li><a href="">Tyro</a>, see <a href="">PoseidonLoves</a></li>
 			</ul>
-		<div>
+		</div>
 		<div id="U">
 			<ul>
 				<li><a href="">Ulysseus</a>, see <a href="">Odysseus</a></li>
 				<li><a href="">Urania</a>, see <a href="">MusesAstronomyUrania</a></li>
 				<li><a href="">Uranus</a></li>
 			</ul>
-		<div>
+		</div>
 		<div id="V">
 			<ul>
 				<li><a href="">Venus</a>, see <a href="">Aphrodite</a></li>
@@ -702,12 +702,12 @@
 				<li><a href="">Vesta</a>, see <a href="">Hestia</a></li>
 				<li><a href="">Vulcan</a>, see <a href="">Hephaestus</a></li>
 			</ul>
-		<div>
+		</div>
 		<div id="W">
 			<ul>
 				<li><a href="">WidowEphesus</a></li>
 			</ul>
-		<div>
+		</div>
 		<div id="Z">
 			<ul>
 				<li><a href="">Zephyr</a></li>
@@ -715,7 +715,7 @@
 				<li><a href="">Zetes</a>, see <a href="">Boreas</a></li>
 				<li><a href="">Zeus</a></li>
 			</ul>
-		<div>
+		</div>
 	</div>
 	</div>
 </main>
