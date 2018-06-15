@@ -167,7 +167,58 @@
 		</div>
 		<div id="C">
 			<ul>
-				<li>
+				<li><a href="">Cadmus</a></li>
+				<li><a href="">Caenis</a>, see <a href="">PoseidonLoves</a></li>
+				<li><a href="">Calais</a>, see <a href="">Boreas</a></li>
+				<li><a href="">Calchas</a>, see <a href="">Achilles</a></li>
+				<li><a href="">Calliope</a>, see <a href="">MusesPoetryCalliope</a></li>
+				<li><a href="">Callisto</a></li>
+				<li><a href="">CalydonianBoarHunt</a>, see <a href="">MeleagerCalydonianBoar</a></li>
+				<li><a href="">Calypso</a>, see <a href="">OdysseusCalypso</a></li>
+				<li><a href="">Camilla</a>, see <a href="">AeneasLatium</a></li>
+				<li><a href="">Canace</a></li>
+				<li><a href="">Cassandra</a></li>
+				<li><a href="">Castor</a>, see <a href="">Dioscuri</a></li>
+				<li><a href="">Casus</a>, see <a href="">HeraclesCacus</a></li>
+				<li><a href="">Caunus</a>, see <a href="">ByblisCaunus</a></li>
+				<li><a href="">Cecrops</a>, see <a href="">Erichthonius</a></li>
+				<li><a href="">Centaurs</a></li>
+				<li><a href="">CephalusProcris</a></li>
+				<li><a href="">Cerberus</a>, see <a href="">HeraclesCerberus</a></li>
+				<li><a href="">Ceres</a></li>
+				<li><a href="">Ceyx</a>, see <a href="">AlcyoneCeyxhariclea</a></li>
+				<li><a href="">Chariclea</a>, see <a href="">TheagenesC</a></li>
+				<li><a href="">Charon</a>, see <a href="">Hades</a></li>
+				<li><a href="">Chimaera</a></li>
+				<li><a href="">Chione</a>, see <a href="">ApolloLoves</a></li>
+				<li><a href="">Chiron</a></li>
+				<li><a href="">Chloe</a>, see <a href="">DaphnisChloe</a></li>
+				<li><a href="">Chloris</a>, see <a href="">Flora</a></li>
+				<li><a href="">Chrysaor</a>, see <a href="">Medusa</a></li>
+				<li><a href="">Chryseis</a></li>
+				<li><a href="">Cinyras</a>, see <a href="">Myrrha</a></li>
+				<li><a href="">Circe</a></li>
+				<li><a href="">Clio</a>, see <a href="">MusesHistoryClio</a></li>
+				<li><a href="">Clymene</a>, see <a href="">ApolloLoves</a></li>
+				<li><a href="">Clytemnestra</a>, see <a href="">Agamemnon</a></li>
+				<li><a href="">Clytie</a></li>
+				<li><a href="">Comus</a></li>
+				<li><a href="">Coronis</a>, see <a href="">ApolloLoves</a> or <a href="">PoseidonLoves</a></li>
+				<li><a href="">Corydon</a>, see <a href="">ShepherdsShepherdesses</a></li>
+				<li><a href="">Creon</a>, see <a href="">Antigone</a> or <a href="">Oedipus</a> or <a href="">SevenAgainstThebes</a></li>
+				<li><a href="">Cresphontes</a>, see <a href="">Merope</a></li>
+				<li><a href="">Cressida</a>, see <a href="">TroilusCressida</a></li>
+				<li><a href="">Creusa</a>, see <a href="">CreusaIon</a> or <a href="">AeneasFlight</a></li>
+				<li><a href="">Cronus</a></li>
+				<li><a href="">CronusOlympiansBirth</a></li>
+				<li><a href="">Cumaean Sibyl</a>, see <a href="">ApolloCumaeanSibyl</a></li>
+				<li><a href="">Cupid</a>, see <a href="">Eros</a></li>
+				<li><a href="">Cybele</a></li>
+				<li><a href="">Cyclopes</a></li>
+				<li><a href="">Cydippe</a>, see <a href="">AcontiusCydippe</a></li>
+				<li><a href="">Cynthia</a>, see <a href="">Artemis</a></li>
+				<li><a href="">Cyparissus</a></li>
+				<li><a href="">Cythera</a>, see <a href="">AphroditeCythera</a></li>
 			</ul>
 		<div>
 		<div id="D">
