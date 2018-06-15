@@ -401,7 +401,17 @@
 		<div>
 		<div id="J">
 			<ul>
-				<li>
+				<li><a href="">Janus</a></li>
+				<li><a href="">Jason</a></li>
+				<li><a href="">JasonArgonauts</a></li>
+				<li><a href="">JasonGoldenFleece</a></li>
+				<li><a href="">JasonHylas</a></li>
+				<li><a href="">JasonHypsipyle</a></li>
+				<li><a href="">JasonPhineus</a></li>
+				<li><a href="">Jocasta</a>, see <a href="">Oedipus</a></li>
+				<li><a href="">Juno</a>, see <a href="">Hera</a></li> 
+				<li><a href="">Juno</a>, see <a href="">Hera</a></li> Keep this duplicate?
+				<li><a href="">Jupiter</a>, see <a href="">Zeus</a></li>
 			</ul>
 		<div>
 		<div id="K">
