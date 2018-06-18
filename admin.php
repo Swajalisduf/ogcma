@@ -2,8 +2,8 @@
 	require_once 'includes/partials/header.php';
 ?>
 <main>
+	<img class='background-image' src='images/background_top_1300px.png' alt='background'>
 	<div>
-		<div class="background-image"></div>
 		<div id="options">
 			<ul>
 				<li>
