@@ -1,26 +1,17 @@
 <?php
-	ini_set('display_errors', 1);
-	ini_set('display_startup_errors', 1);
-	error_reporting(E_ALL);
-
 	require_once 'includes/partials/header.php';
-	
-	$read = new Read;
-	$usages = $read->getEntries();
 ?>
 	
-<!--<main>
+<main>
 	<img class='background-image' src='images/background_top_1300px.png' alt='background'>
 	<div>
-		<h1>Welcome to the Catalog of all the References</h1>
+		<h2>Welcome to the Catalog of all the References</h1>
 		<input class="allSearch" type="text" name="allSearch" placeholder="Search All Usages">
-	</div> -->
-
+	</div>
 	<div class="wrapper">
-	<div class="sort">
-		<ul class="clearfix">
-			<li><!--<input type="button" onClick="document.getElementById('A').scrollIntoView();"/>-->A</li>
-			<li><!--<input type="button" onClick="document.getElementById('B').scrollIntoView();"/>-->B</li>
+		<ul class="sort">
+			<li><input type="button" onClick="document.getElementById('A').scrollIntoView();"/>A</li>
+			<li><input type="button" onClick="document.getElementById('B').scrollIntoView();"/>B</li>
 			<li><input type="button" onClick="document.getElementById('C').scrollIntoView();"/>C</li>
 			<li><input type="button" onClick="document.getElementById('D').scrollIntoView();"/>D</li>
 			<li><input type="button" onClick="document.getElementById('E').scrollIntoView();"/>E</li>
@@ -46,7 +37,6 @@
 			<li><input type="button" onClick="document.getElementById('Y').scrollIntoView();"/>Y</li>
 			<li><input type="button" onClick="document.getElementById('Z').scrollIntoView();"/>Z</li>
 		</ul>
-	</div>
 	<div class="references">
 		<div id="A">
 			<ul>
@@ -97,7 +87,7 @@
 				<li><a href="">Amphion</a></li>
 				<li><a href="">Amphitrite</a></li>
 				<li><a href="">AmphitryonAlcmene</a></li>
-				<li><a href="">Andromeda, see <a href="">PerseusAndromeda</a></li>
+				<li><a href="">Andromeda</a>, see <a href="">PerseusAndromeda</a></li>
 				<li><a href="">Antaeus</a>, see <a href="">HeraclesAntaeus</a></li>
 				<li><a href="">Anteros</a>, see <a href="">ErosAnteros</a></li>
 				<li><a href="">Antigone</a></li>
@@ -246,7 +236,7 @@
 		</div>
 		<div id="E">
 			<ul>
-				<li><a href="">Echo, see <a href="">Narcissus</a></li>
+				<li><a href="">Echo</a>, see <a href="">Narcissus</a></li>
 				<li><a href="">Electra</a></li>
 				<li><a href="">ElectraPleiad</a></li>
 				<li><a href="">Elysium</a></li>
@@ -298,7 +288,7 @@
 				<li><a href="">Glauce</a>, see <a href="">Medea</a></li>
 				<li><a href="">Glaucus</a></li>
 				<li><a href="">GodsGoddesses</a></li>
-				<li><a href="">GodsGoddessesConflictVice&Virtue</a></li>
+				<li><a href="">GodsGoddessesConflictVice&amp;Virtue</a></li> 
 				<li><a href="">GodsGoddessesElements</a></li>
 				<li><a href="">GodsGoddessesLoves</a></li>
 				<li><a href="">GodsGoddessesSeasons</a></li>
@@ -364,7 +354,7 @@
 				<li><a href="">Hipomenes</a>, see <a href="">Atalanta</a></li>
 				<li><a href="">Hippodamia</a>, see <a href="">PirithousHippodamia</a></li>
 				<li><a href="">Hippodamia</a>, see <a href="">PirithousWedding</a></li> Add this to the one above?
-				<li><a href="">Hippolyta</a>, see <a href="">Amazons or <a href="">HeraclesHippolytaGirdle</a></li>
+				<li><a href="">Hippolyta</a>, see <a href="">Amazons</a> or <a href="">HeraclesHippolytaGirdle</a></li>
 				<li><a href="">Hippolytus</a>, see <a href="">PhaedraHippolytus</a></li>
 				<li><a href="">Hyacinth</a></li>
 				<li><a href="">Hygieia</a>, see <a href="">AsclepiusHygieia</a></li> 
@@ -463,11 +453,11 @@
 				<li><a href="">Metaneira*</a></li>
 				<li><a href="">Mezentius*</a></li>
 				<li><a href="">Midas</a></li>
-				<li><a href="">Minerva, see <a href="">Athena</a></li>
+				<li><a href="">Minerva</a>, see <a href="">Athena</a></li>
 				<li><a href="">Minos</a></li>
 				<li><a href="">Minotaur</a></li>
 				<li><a href="">Mnemosyne</a></li>
-				<li><a href="">Moirai, see <a href="">Fates</a></li>
+				<li><a href="">Moirai</a>, see <a href="">Fates</a></li>
 				<li><a href="">Muses</a></li>
 				<li><a href="">MusesAstronomyUrania</a></li>
 				<li><a href="">MusesDanceTerpsichore</a></li>
@@ -550,7 +540,7 @@
 				<li><a href="">Pasiphaë</a></li>
 				<li><a href="">Patroclus</a></li>
 				<li><a href="">Pegasus</a></li>
-				<li><a href="">Peleus</a>, see <a href="">ThesisPeleus</a> and <a href="">PeleusAchilles</a> and JasonArgonauts</a></li>
+				<li><a href="">Peleus</a>, see <a href="">ThesisPeleus</a> and <a href="">PeleusAchilles</a> and <a href="">JasonArgonauts</a></li>
 				<li><a href="">Pelias</a>, see <a href="">Jason</a></li>
 				<li><a href="">Pelops</a>, see <a href="">Tantalus</a></li>
 				<li><a href="">Penelope</a>, see also <a href="">OdysseusReturn</a> and <a href="">Telemachus</a></li>
@@ -588,7 +578,7 @@
 				<li><a href="">Polyhymnia</a>, see <a href="">MusesPoetryPolyhymnia</a></li>
 				<li><a href="">Polymnestor</a>, see <a href="">Polydorus</a></li>
 				<li><a href="">Polyneices</a>, see <a href="">SevenAgainstThebes</a></li>
-				<li><a href="">Polyphemus</a>, see <a href="">OdysseusPolyphemus or <a href="">Galatea</a></li>
+				<li><a href="">Polyphemus</a>, see <a href="">OdysseusPolyphemus</a> or <a href="">Galatea</a></li>
 				<li><a href="">Polyphontes</a>, see <a href="">Merope</a></li>
 				<li><a href="">Polyxena</a></li>
 				<li><a href="">Pomona</a></li>

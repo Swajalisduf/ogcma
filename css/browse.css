@@ -1,15 +1,12 @@
 /* h1 and allSearch bar*/
 
-.
-
-h1 {
+h2 {
 	font-family: forum;
 	height: 50px;
 	margin-bottom: 25px;
 	margin-left: 5px;
 	padding: 3vh 0 0 50px;
 	font-size: 24pt;
-	text-decoration: underline;
 	width: 80%;
 }
 
@@ -79,7 +76,8 @@ h1 {
 	vertical-align: top;
 	left: 50px;
 	grid-area: sidebar;
-	position: fixed;
+	position: sticky;
+	top: 0;
 }
 
 .sort:hover {
