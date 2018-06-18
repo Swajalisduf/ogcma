@@ -79,6 +79,7 @@ h1 {
 	vertical-align: top;
 	left: 50px;
 	grid-area: sidebar;
+	position: fixed;
 }
 
 .sort:hover {

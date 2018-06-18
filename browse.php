@@ -19,37 +19,37 @@
 	<div class="wrapper">
 	<div class="sort">
 		<ul class="clearfix">
-			<li>A</li>
-			<li>B</li>
-			<li>C</li>
-			<li>D</li>
-			<li>E</li>
-			<li>F</li>
-			<li>G</li>
-			<li>H</li>
-			<li>I</li>
-			<li>J</li>
-			<li>K</li>
-			<li>L</li>
-			<li>M</li>
-			<li>N</li>
-			<li>O</li>
-			<li>P</li>
-			<li>Q</li>
-			<li>R</li>
-			<li>S</li>
-			<li>T</li>
-			<li>U</li>
-			<li>V</li>
-			<li>W</li>
-			<li>X</li>
-			<li>Y</li>
-			<li>Z</li>
+			<li><!--<input type="button" onClick="document.getElementById('A').scrollIntoView();"/>-->A</li>
+			<li><!--<input type="button" onClick="document.getElementById('B').scrollIntoView();"/>-->B</li>
+			<li><input type="button" onClick="document.getElementById('C').scrollIntoView();"/>C</li>
+			<li><input type="button" onClick="document.getElementById('D').scrollIntoView();"/>D</li>
+			<li><input type="button" onClick="document.getElementById('E').scrollIntoView();"/>E</li>
+			<li><input type="button" onClick="document.getElementById('F').scrollIntoView();"/>F</li>
+			<li><input type="button" onClick="document.getElementById('G').scrollIntoView();"/>G</li>
+			<li><input type="button" onClick="document.getElementById('H').scrollIntoView();"/>H</li>
+			<li><input type="button" onClick="document.getElementById('I').scrollIntoView();"/>I</li>
+			<li><input type="button" onClick="document.getElementById('J').scrollIntoView();"/>J</li>
+			<li><input type="button" onClick="document.getElementById('K').scrollIntoView();"/>K</li>
+			<li><input type="button" onClick="document.getElementById('L').scrollIntoView();"/>L</li>
+			<li><input type="button" onClick="document.getElementById('M').scrollIntoView();"/>M</li>
+			<li><input type="button" onClick="document.getElementById('N').scrollIntoView();"/>N</li>
+			<li><input type="button" onClick="document.getElementById('O').scrollIntoView();"/>O</li>
+			<li><input type="button" onClick="document.getElementById('P').scrollIntoView();"/>P</li>
+			<li><input type="button" onClick="document.getElementById('Q').scrollIntoView();"/>Q</li>
+			<li><input type="button" onClick="document.getElementById('R').scrollIntoView();"/>R</li>
+			<li><input type="button" onClick="document.getElementById('S').scrollIntoView();"/>S</li>
+			<li><input type="button" onClick="document.getElementById('T').scrollIntoView();"/>T</li>
+			<li><input type="button" onClick="document.getElementById('U').scrollIntoView();"/>U</li>
+			<li><input type="button" onClick="document.getElementById('V').scrollIntoView();"/>V</li>
+			<li><input type="button" onClick="document.getElementById('W').scrollIntoView();"/>W</li>
+			<li><input type="button" onClick="document.getElementById('X').scrollIntoView();"/>X</li>
+			<li><input type="button" onClick="document.getElementById('Y').scrollIntoView();"/>Y</li>
+			<li><input type="button" onClick="document.getElementById('Z').scrollIntoView();"/>Z</li>
 		</ul>
 	</div>
 	<div class="references">
 		<div id="A">
-			<ul class="clearfix">
+			<ul>
 				<li><a href="">Achelous</a>, see <a href="">Heracles</a> and <a href="">Theseus</a></li>
 				<li><a href="">Achilles</a></li>
 				<li><a href="">AchillesAfterlife</a></li>
