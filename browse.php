@@ -5,37 +5,37 @@
 <main>
 	<img class='background-image' src='images/background_top_1300px.png' alt='background'>
 	<div>
-		<h2>Welcome to the Catalog of all the References</h1>
+		<h2>Welcome to the Catalog of all the References</h2>
 		<input class="allSearch" type="text" name="allSearch" placeholder="Search All Usages">
 	</div>
 	<div class="wrapper">
 		<ul class="sort">
-			<li><input type="button" onClick="document.getElementById('A').scrollIntoView();"/>A</li>
-			<li><input type="button" onClick="document.getElementById('B').scrollIntoView();"/>B</li>
-			<li><input type="button" onClick="document.getElementById('C').scrollIntoView();"/>C</li>
-			<li><input type="button" onClick="document.getElementById('D').scrollIntoView();"/>D</li>
-			<li><input type="button" onClick="document.getElementById('E').scrollIntoView();"/>E</li>
-			<li><input type="button" onClick="document.getElementById('F').scrollIntoView();"/>F</li>
-			<li><input type="button" onClick="document.getElementById('G').scrollIntoView();"/>G</li>
-			<li><input type="button" onClick="document.getElementById('H').scrollIntoView();"/>H</li>
-			<li><input type="button" onClick="document.getElementById('I').scrollIntoView();"/>I</li>
-			<li><input type="button" onClick="document.getElementById('J').scrollIntoView();"/>J</li>
-			<li><input type="button" onClick="document.getElementById('K').scrollIntoView();"/>K</li>
-			<li><input type="button" onClick="document.getElementById('L').scrollIntoView();"/>L</li>
-			<li><input type="button" onClick="document.getElementById('M').scrollIntoView();"/>M</li>
-			<li><input type="button" onClick="document.getElementById('N').scrollIntoView();"/>N</li>
-			<li><input type="button" onClick="document.getElementById('O').scrollIntoView();"/>O</li>
-			<li><input type="button" onClick="document.getElementById('P').scrollIntoView();"/>P</li>
-			<li><input type="button" onClick="document.getElementById('Q').scrollIntoView();"/>Q</li>
-			<li><input type="button" onClick="document.getElementById('R').scrollIntoView();"/>R</li>
-			<li><input type="button" onClick="document.getElementById('S').scrollIntoView();"/>S</li>
-			<li><input type="button" onClick="document.getElementById('T').scrollIntoView();"/>T</li>
-			<li><input type="button" onClick="document.getElementById('U').scrollIntoView();"/>U</li>
-			<li><input type="button" onClick="document.getElementById('V').scrollIntoView();"/>V</li>
-			<li><input type="button" onClick="document.getElementById('W').scrollIntoView();"/>W</li>
-			<li><input type="button" onClick="document.getElementById('X').scrollIntoView();"/>X</li>
-			<li><input type="button" onClick="document.getElementById('Y').scrollIntoView();"/>Y</li>
-			<li><input type="button" onClick="document.getElementById('Z').scrollIntoView();"/>Z</li>
+			<li><input type="button" onClick="document.getElementById('A').scrollIntoView();" value="scroll"/>A</li>
+			<li><input type="button" onClick="document.getElementById('B').scrollIntoView();" value="scroll"/>B</li>
+			<li><input type="button" onClick="document.getElementById('C').scrollIntoView();" value="scroll"/>C</li>
+			<li><input type="button" onClick="document.getElementById('D').scrollIntoView();" value="scroll"/>D</li>
+			<li><input type="button" onClick="document.getElementById('E').scrollIntoView();" value="scroll"/>E</li>
+			<li><input type="button" onClick="document.getElementById('F').scrollIntoView();" value="scroll"/>F</li>
+			<li><input type="button" onClick="document.getElementById('G').scrollIntoView();" value="scroll"/>G</li>
+			<li><input type="button" onClick="document.getElementById('H').scrollIntoView();" value="scroll"/>H</li>
+			<li><input type="button" onClick="document.getElementById('I').scrollIntoView();" value="scroll"/>I</li>
+			<li><input type="button" onClick="document.getElementById('J').scrollIntoView();" value="scroll"/>J</li>
+			<li><input type="button" onClick="document.getElementById('K').scrollIntoView();" value="scroll"/>K</li>
+			<li><input type="button" onClick="document.getElementById('L').scrollIntoView();" value="scroll"/>L</li>
+			<li><input type="button" onClick="document.getElementById('M').scrollIntoView();" value="scroll"/>M</li>
+			<li><input type="button" onClick="document.getElementById('N').scrollIntoView();" value="scroll"/>N</li>
+			<li><input type="button" onClick="document.getElementById('O').scrollIntoView();" value="scroll"/>O</li>
+			<li><input type="button" onClick="document.getElementById('P').scrollIntoView();" value="scroll"/>P</li>
+			<li><input type="button" onClick="document.getElementById('Q').scrollIntoView();" value="scroll"/>Q</li>
+			<li><input type="button" onClick="document.getElementById('R').scrollIntoView();" value="scroll"/>R</li>
+			<li><input type="button" onClick="document.getElementById('S').scrollIntoView();" value="scroll"/>S</li>
+			<li><input type="button" onClick="document.getElementById('T').scrollIntoView();" value="scroll"/>T</li>
+			<li><input type="button" onClick="document.getElementById('U').scrollIntoView();" value="scroll"/>U</li>
+			<li><input type="button" onClick="document.getElementById('V').scrollIntoView();" value="scroll"/>V</li>
+			<li><input type="button" onClick="document.getElementById('W').scrollIntoView();" value="scroll"/>W</li>
+			<li><input type="button" onClick="document.getElementById('X').scrollIntoView();" value="scroll"/>X</li>
+			<li><input type="button" onClick="document.getElementById('Y').scrollIntoView();" value="scroll"/>Y</li>
+			<li><input type="button" onClick="document.getElementById('Z').scrollIntoView();" value="scroll"/>Z</li>
 		</ul>
 	<div class="references">
 		<div id="A">
@@ -94,8 +94,8 @@
 				<li><a href="">Antinous</a>, see <a href="">OdysseusReturn</a></li>
 				<li><a href="">Antiope</a></li>
 				<li><a href="">AntiopeDirce</a></li>
-				<li><a href="">Aphrodite</a></li> Keep this duplicate?
-				<li><a href="">Aphrodite</a>, see <a href="">AresAphrodite</a></li> <!--Ask if this should be combined with the one above--> 
+				<li><a href="">Aphrodite</a></li> <li>Keep this duplicate?</li>
+				<li><a href="">Aphrodite</a>, see <a href="">AresAphrodite</a></li> <li>Ask if this should be combined with the one above</li>
 				<li><a href="">AphroditeAnchises</a></li>
 				<li><a href="">AphroditeBirth</a></li>
 				<li><a href="">AphroditeCythera</a></li>
@@ -225,7 +225,7 @@
 				<li><a href="">Deneira</a>, see <a href="">HeraclesDeneira</a></li>
 				<li><a href="">DeucalionPyrrha</a></li>
 				<li><a href="">Dido</a></li>
-				<li><a href="">Dido</a></li> Keep this duplicate?
+				<li><a href="">Dido</a></li> <li>Keep this duplicate?</li>
 				<li><a href="">Diomedes</a></li>
 				<li><a href="">Dionysus</a></li>
 				<li><a href="">DionysusAriadne</a></li>
@@ -244,7 +244,7 @@
 				<li><a href="">Endymion</a></li>
 				<li><a href="">Eos</a></li>
 				<li><a href="">EosTithonus</a></li>
-				<li><a href="">Ephesus, Widow of</a>, see <a href="">EphesusWidow</a></li> Should I just connect these?
+				<li><a href="">Ephesus, Widow of</a>, see <a href="">EphesusWidow</a></li> <li>Should I just connect these?</li>
 				<li><a href="">Epimetheus</a>, see <a href="">Pandora</a></li>
 				<li><a href="">Erato</a>, see <a href="">MusesPoetryErato</a></li>
 				<li><a href="">Erichthonius</a></li>
@@ -272,7 +272,7 @@
 			<ul>
 				<li><a href="">Fates</a></li>
 				<li><a href="">Fauns</a>, see <a href="">SatyrsFauns</a></li>
-				<li><a href="">Fauns</a>, see <a href="">SatyrsFauns</a></li> Keep this duplicate?
+				<li><a href="">Fauns</a>, see <a href="">SatyrsFauns</a></li> <li>Keep this duplicate?</li>
 				<li><a href="">Faunus</a>, see <a href="">Pan</a></li>
 				<li><a href="">Feast of the Gods</a>, see <a href="">GodsGoddesses</a></li>
 				<li><a href="">Flora</a></li>
@@ -301,7 +301,7 @@
 			<ul>
 				<li><a href="">Hades</a></li>
 				<li><a href="">Hades (son of Cronus)</a></li>
-				<li><a href="">Hades</a>, see either <a href="">Hades (son of Cronus)</a> or <a href="">Hades</a></li> Why the seperate Hades?
+				<li><a href="">Hades</a>, see either <a href="">Hades (son of Cronus)</a> or <a href="">Hades</a></li> <li>Why the seperate Hades?</li>
 				<li><a href="">Harmonia</a>, see <a href="">Cadmus</a></li>
 				<li><a href="">Harpies</a></li>
 				<li><a href="">Hebe</a></li>
@@ -353,12 +353,12 @@
 				<li><a href="">Hestia</a></li>
 				<li><a href="">Hipomenes</a>, see <a href="">Atalanta</a></li>
 				<li><a href="">Hippodamia</a>, see <a href="">PirithousHippodamia</a></li>
-				<li><a href="">Hippodamia</a>, see <a href="">PirithousWedding</a></li> Add this to the one above?
+				<li><a href="">Hippodamia</a>, see <a href="">PirithousWedding</a></li> <li>Add this to the one above?</li>
 				<li><a href="">Hippolyta</a>, see <a href="">Amazons</a> or <a href="">HeraclesHippolytaGirdle</a></li>
 				<li><a href="">Hippolytus</a>, see <a href="">PhaedraHippolytus</a></li>
 				<li><a href="">Hyacinth</a></li>
 				<li><a href="">Hygieia</a>, see <a href="">AsclepiusHygieia</a></li> 
-				<li><a href="">Hygieia</a>, see <a href="">AsclepiusHygieia</a></li>Keep this duplicate?
+				<li><a href="">Hygieia</a>, see <a href="">AsclepiusHygieia</a></li><li>Keep this duplicate?</li>
 				<li><a href="">Hylas</a>, see <a href="">JasonHylas</a></li>
 				<li><a href="">Hylomene</a></li>
 				<li><a href="">Hymen</a></li>
@@ -400,7 +400,7 @@
 				<li><a href="">JasonPhineus</a></li>
 				<li><a href="">Jocasta</a>, see <a href="">Oedipus</a></li>
 				<li><a href="">Juno</a>, see <a href="">Hera</a></li> 
-				<li><a href="">Juno</a>, see <a href="">Hera</a></li> Keep this duplicate?
+				<li><a href="">Juno</a>, see <a href="">Hera</a></li> <li>Keep this duplicate?</li>
 				<li><a href="">Jupiter</a>, see <a href="">Zeus</a></li>
 			</ul>
 		</div>
@@ -413,7 +413,7 @@
 				<li><a href="">Latona</a>, see <a href="">Leto</a></li>
 				<li><a href="">Lavinia</a>, see <a href="">AeneasLatium</a></li>
 				<li><a href="">Leander</a>, see <a href="">HeroLeander</a></li>
-				<li><a href="">Leander</a>, see <a href="">HeroLeander</a></li> Keep this duplicate?
+				<li><a href="">Leander</a>, see <a href="">HeroLeander</a></li> <li>Keep this duplicate?</li>
 				<li><a href="">Leda</a></li>
 				<li><a href="">Lethe*</a></li>
 				<li><a href="">Leto</a></li>
@@ -510,7 +510,7 @@
 				<li><a href="">OedipusColonus</a></li>
 				<li><a href="">OedipusSphinx</a></li>
 				<li><a href="">Oenone</a>, see <a href="">Paris</a></li>
-				<li><a href="">Olympians</a>, see <a href="">GodsGoddesses</a> and <a href="">individuals</a></li> individuals doesn't have it's own category
+				<li><a href="">Olympians</a>, see <a href="">GodsGoddesses</a> and <a href="">individuals</a></li> <li>individuals doesn't have it's own category</li>
 				<li><a href="">Olympus</a>, see <a href="">GodsGoddesses</a> and <a href="">Marsyas</a></li>
 				<li><a href="">Omphale</a>, see <a href="">HeraclesOmphale</a></li>
 				<li><a href="">Ops</a>, see <a href="">Cronus</a> and <a href="">Cybele</a></li>
@@ -658,9 +658,9 @@
 				<li><a href="">Thetis</a></li>
 				<li><a href="">ThetisPeleus</a></li>
 				<li><a href="">Thisbe</a>, see <a href="">PyramusThisbe</a></li>
-				<li><a href="">Thisbe</a>, see <a href="">PyramusThisbe</a></li> Keep this duplicate?
+				<li><a href="">Thisbe</a>, see <a href="">PyramusThisbe</a></li> <li>Keep this duplicate?</li>
 				<li><a href="">Thyestes</a>, see <a href="">AtreusThyestes</a></li>
-				<li><a href="">Thyestes</a>, see <a href="">AtreusThyestes</a></li> Keep this duplicate?
+				<li><a href="">Thyestes</a>, see <a href="">AtreusThyestes</a></li> <li>Keep this duplicate?</li>
 				<li><a href="">Thyrsis</a>, see <a href="">ShepherdsShepherdesses</a></li>
 				<li><a href="">Tiresias</a></li>
 				<li><a href="">TitansGiants</a></li>
@@ -671,7 +671,7 @@
 				<li><a href="">TrojanWar</a></li>
 				<li><a href="">TrojanWarFall</a></li>
 				<li><a href="">TrojanWarWoodenHorse</a></li>
-				<li><a href="">TrojanWarWoodenHorse</a></li> Keep this duplicate?
+				<li><a href="">TrojanWarWoodenHorse</a></li> <li>Keep this duplicate?</li>
 				<li><a href="">Tryphon</a></li>
 				<li><a href="">Turnus</a>, see <a href="">AeneasLatium</a></li>
 				<li><a href="">Tyndareus</a>, see <a href="">Leda</a></li>

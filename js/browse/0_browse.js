@@ -402,6 +402,9 @@ class Functions {
 			database.allSearch(search_param)
 		});
 	}
+	scrollTo(){
+		document.getElementById('A').scrollIntoView();
+	}
 } //end Functions
 
 $(document).ready(function(){
@@ -419,6 +422,7 @@ $(document).ready(function(){
 	functions.deleteBibButton(database);
 	functions.deleteNoteButton(database);
 	functions.allSearch(database);
+	funtion.scrollTo();
 
 	//On load will automatically select the first item in the list and display it's information
 	database.getFirstEntry();
