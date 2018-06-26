@@ -11,7 +11,7 @@ h2 {
 	height: 50px;
 	margin-bottom: 25px;
 	margin-left: 5px;
-	padding: 3vh 0 0 50px;
+	padding: 3vh 0 0 25px;
 	font-size: 24pt;
 	width: 80%;
 }
@@ -19,7 +19,7 @@ h2 {
 .allSearch {
 	width: 400px;
 	height: 25px;
-	margin: 3vh 50px 25px 65px;
+	margin: 3vh 50px 25px 35px;
 }
 
 /* #container2::before, #container2::after {
@@ -71,7 +71,7 @@ h2 {
 
 .sort {
 	width: 800px;
-	margin-left: 50px;
+	margin-left: 25px;
 	border-bottom: 2px solid #d3d3d3;
 	vertical-align: top;
 	display: flex;
