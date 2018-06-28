@@ -96,7 +96,7 @@
 						<li><a href="">Aeolus</a></li>
 						<li><a href="">AesculapiusHygieia</a></li>
 						<li><a href="">Aeson</a>, see <a href="">Medea</a></li>
-						<li><a href="">Aethra</a>, see also <a href="">TheseusTroezen</a></li>
+						<li><a href="">Aethra</a>, see <a href="">TheseusTroezen</a></li>
 						<li><a href="">Agamemnon</a></li>
 						<li><a href="">AgesOfWorld</a></li>
 						<li><a href="">Aglaurus</a>, see <a href="">HerseAglaurus</a></li>
@@ -119,8 +119,8 @@
 						<li><a href="">Antinous</a>, see <a href="">OdysseusReturn</a></li>
 						<li><a href="">Antiope</a></li>
 						<li><a href="">AntiopeDirce</a></li>
-						<li><a href="">Aphrodite</a> <em>Keep this duplicate?</em></li>
-						<li><a href="">Aphrodite</a>, see <a href="">AresAphrodite</a> <em>Ask if this should be combined with the one above</em></li>
+						<li><a href="">Aphrodite</a></li>
+						<li><a href="">AphroditeAres</a>, see <a href="">AresAphrodite</a></li>
 						<li><a href="">AphroditeAnchises</a></li>
 						<li><a href="">AphroditeBirth</a></li>
 						<li><a href="">AphroditeCythera</a></li>
@@ -158,7 +158,7 @@
 						<li><a href="">Astyanax</a>, see <a href="">TrojanWarFall</a></li>
 						<li><a href="">Atalanta</a></li>
 						<li><a href="">Athena</a></li>
-						<li><a href="">Athena</a>, see <a href="">AresAthena</a></li>
+						<li><a href="">AthenaAres</a>, see <a href="">AresAthena</a></li>
 						<li><a href="">AthenaBirth</a></li>
 						<li><a href="">AthenaContestPoseidon</a></li>
 						<li><a href="">Atlantis</a></li>
@@ -201,8 +201,8 @@
 						<li><a href="">CephalusProcris</a></li>
 						<li><a href="">Cerberus</a>, see <a href="">HeraclesCerberus</a></li>
 						<li><a href="">Ceres</a></li>
-						<li><a href="">Ceyx</a>, see <a href="">AlcyoneCeyxhariclea</a></li>
-						<li><a href="">Chariclea</a>, see <a href="">TheagenesC</a></li>
+						<li><a href="">Ceyx</a>, see <a href="">AlcyoneCeyxChariclea</a></li>
+						<li><a href="">Chariclea</a>, see <a href="">TheagenesChariclea</a></li>
 						<li><a href="">Charon</a>, see <a href="">Hades</a></li>
 						<li><a href="">Chimaera</a></li>
 						<li><a href="">Chione</a>, see <a href="">ApolloLoves</a></li>
@@ -297,7 +297,6 @@
 					<ul>
 						<li><a href="">Fates</a></li>
 						<li><a href="">Fauns</a>, see <a href="">SatyrsFauns</a></li>
-						<li><a href="">Fauns</a>, see <a href="">SatyrsFauns</a> <em>Keep this duplicate?</em></li>
 						<li><a href="">Faunus</a>, see <a href="">Pan</a></li>
 						<li><a href="">Feast of the Gods</a>, see <a href="">GodsGoddesses</a></li>
 						<li><a href="">Flora</a></li>
@@ -306,7 +305,7 @@
 				</div>
 				<div id="G">
 					<ul>
-						<li><a href="">Galatea</a>, see also <a href="">Pygmalion</a> or <a href="">Acis</a></li>
+						<li><a href="">Galatea</a>, see <a href="">Pygmalion</a> or <a href="">Acis</a></li>
 						<li><a href="">Ganymede</a></li>
 						<li><a href="">Ge</a>, see <a href="">Gaia</a></li>
 						<li><a href="">Giants</a>, see <a href="">TitansGiants</a></li>
@@ -377,13 +376,11 @@
 						<li><a href="">Hesperus</a></li>
 						<li><a href="">Hestia</a></li>
 						<li><a href="">Hipomenes</a>, see <a href="">Atalanta</a></li>
-						<li><a href="">Hippodamia</a>, see <a href="">PirithousHippodamia</a></li>
-						<li><a href="">Hippodamia</a>, see <a href="">PirithousWedding</a> <em>Add this to the one above?</em></li>
+						<li><a href="">Hippodamia</a>, see <a href="">PirithousWedding</a></li>
 						<li><a href="">Hippolyta</a>, see <a href="">Amazons</a> or <a href="">HeraclesHippolytaGirdle</a></li>
 						<li><a href="">Hippolytus</a>, see <a href="">PhaedraHippolytus</a></li>
 						<li><a href="">Hyacinth</a></li>
 						<li><a href="">Hygieia</a>, see <a href="">AsclepiusHygieia</a></li> 
-						<li><a href="">Hygieia</a>, see <a href="">AsclepiusHygieia</a> <em>Keep this duplicate?</em></li>
 						<li><a href="">Hylas</a>, see <a href="">JasonHylas</a></li>
 						<li><a href="">Hylomene</a></li>
 						<li><a href="">Hymen</a></li>
@@ -424,8 +421,7 @@
 						<li><a href="">JasonHypsipyle</a></li>
 						<li><a href="">JasonPhineus</a></li>
 						<li><a href="">Jocasta</a>, see <a href="">Oedipus</a></li>
-						<li><a href="">Juno</a>, see <a href="">Hera</a></li> 
-						<li><a href="">Juno</a>, see <a href="">Hera</a> <em>Keep this duplicate?</em></li>
+						<li><a href="">Juno</a>, see <a href="">Hera</a></li>
 						<li><a href="">Jupiter</a>, see <a href="">Zeus</a></li>
 					</ul>
 				</div>
@@ -440,43 +436,43 @@
 						<li><a href="">Leander</a>, see <a href="">HeroLeander</a></li>
 						<li><a href="">Leander</a>, see <a href="">HeroLeander</a> <em>Keep this duplicate?</em></li>
 						<li><a href="">Leda</a></li>
-						<li><a href="">Lethe*</a></li>
+						<li><a href="">Lethe</a></li>
 						<li><a href="">Leto</a></li>
-						<li><a href="">Leucothe*</a></li>
-						<li><a href="">Leucothea*</a></li>
-						<li><a href="">Lichas*</a></li>
+						<li><a href="">Leucothe</a></li>
+						<li><a href="">Leucothea</a></li>
+						<li><a href="">Lichas</a></li>
 						<li><a href="">Luna</a></li>
-						<li><a href="">Lupa—Capitoline She-wolf*</a></li>
-						<li><a href="">Lycidas*</a></li>
-						<li><a href="">Lycomedes*</a></li>
-						<li><a href="">Lycoris*</a></li>
-						<li><a href="">Lycus*</a></li>
-						<li><a href="">Lyncus*</a></li>
+						<li><a href="">Lupa—Capitoline She-wolf</a></li>
+						<li><a href="">Lycidas</a></li>
+						<li><a href="">Lycomedes</a></li>
+						<li><a href="">Lycoris</a></li>
+						<li><a href="">Lycus</a></li>
+						<li><a href="">Lyncus</a></li>
 						<li><a href="">Lysistrata</a></li>
 					</ul>
 				</div>
 				<div id="M">
 					<ul>
-						<li><a href="">Maenads*</a></li>
-						<li><a href="">Maia*</a></li>
-						<li><a href="">Marpessa*</a></li>
+						<li><a href="">Maenads</a></li>
+						<li><a href="">Maia</a></li>
+						<li><a href="">Marpessa</a></li>
 						<li><a href="">Mars</a>, see <a href="">Ares</a></li>
 						<li><a href="">Marsyas</a></li>
 						<li><a href="">Medea</a></li>
 						<li><a href="">Medusa</a></li>
-						<li><a href="">Megara*</a></li>
-						<li><a href="">Melantho*</a></li>
+						<li><a href="">Megara</a></li>
+						<li><a href="">Melantho</a></li>
 						<li><a href="">Meleager</a></li>
 						<li><a href="">MeleagerCalydonianBoar</a></li>
-						<li><a href="">Meliboeus*</a></li>
-						<li><a href="">Melpomene*</a></li>
+						<li><a href="">Meliboeus</a></li>
+						<li><a href="">Melpomene</a></li>
 						<li><a href="">Memnon</a></li>
 						<li><a href="">Menelaus</a></li>
 						<li><a href="">Mercury</a>, see <a href="">Hermes</a></li>
 						<li><a href="">MeropeCresphontes</a></li>
 						<li><a href="">MeropePleiad</a></li>
-						<li><a href="">Metaneira*</a></li>
-						<li><a href="">Mezentius*</a></li>
+						<li><a href="">Metaneira</a></li>
+						<li><a href="">Mezentius</a></li>
 						<li><a href="">Midas</a></li>
 						<li><a href="">Minerva</a>, see <a href="">Athena</a></li>
 						<li><a href="">Minos</a></li>
@@ -503,8 +499,8 @@
 						<li><a href="">Neoptolemus</a></li>
 						<li><a href="">Neptune</a>, see <a href="">Poseidon</a></li>
 						<li><a href="">Nereids</a>, see <a href="">NymphsNereids</a></li>
-						<li><a href="">Nereus*</a></li>
-						<li><a href="">Nessus*</a></li>
+						<li><a href="">Nereus</a></li>
+						<li><a href="">Nessus</a></li>
 						<li><a href="">Nestor</a></li>
 						<li><a href="">Nike</a></li>
 						<li><a href="">Niobe</a></li>
@@ -607,7 +603,7 @@
 						<li><a href="">Polyphontes</a>, see <a href="">Merope</a></li>
 						<li><a href="">Polyxena</a></li>
 						<li><a href="">Pomona</a></li>
-						<li><a href="">Porcne</a>, see <a href="">PhilomelaProcne</a></li>
+						<li><a href="">Procne</a>, see <a href="">PhilomelaProcne</a></li>
 						<li><a href="">Poseidon</a></li>
 						<li><a href="">PoseidonLoves</a></li>
 						<li><a href="">Priam</a></li>
@@ -683,9 +679,7 @@
 						<li><a href="">Thetis</a></li>
 						<li><a href="">ThetisPeleus</a></li>
 						<li><a href="">Thisbe</a>, see <a href="">PyramusThisbe</a></li>
-						<li><a href="">Thisbe</a>, see <a href="">PyramusThisbe</a> <em>Keep this duplicate?</em></li>
 						<li><a href="">Thyestes</a>, see <a href="">AtreusThyestes</a></li>
-						<li><a href="">Thyestes</a>, see <a href="">AtreusThyestes</a> <em>Keep this duplicate?</em></li>
 						<li><a href="">Thyrsis</a>, see <a href="">ShepherdsShepherdesses</a></li>
 						<li><a href="">Tiresias</a></li>
 						<li><a href="">TitansGiants</a></li>
