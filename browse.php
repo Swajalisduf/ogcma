@@ -9,33 +9,33 @@
 				<input class="allSearch" type="text" name="allSearch" placeholder="Search All Usages">
 			</div>
 				<ul class="sort">
-					<!-- <li><onClick="document.getElementById('A').scrollIntoView();"/>A</li>
-					<li><onClick="document.getElementById('B').scrollIntoView();"/>B</li>
-					<li><onClick="document.getElementById('C').scrollIntoView();"/>C</li>
-					<li><onClick="document.getElementById('D').scrollIntoView();"/>D</li>
-					<li><onClick="document.getElementById('E').scrollIntoView();"/>E</li>
-					<li><onClick="document.getElementById('F').scrollIntoView();"/>F</li>
-					<li><onClick="document.getElementById('G').scrollIntoView();"/>G</li>
-					<li><onClick="document.getElementById('H').scrollIntoView();"/>H</li>
-					<li><onClick="document.getElementById('I').scrollIntoView();"/>I</li>
-					<li><onClick="document.getElementById('J').scrollIntoView();"/>J</li>
-					<li><onClick="document.getElementById('K').scrollIntoView();"/>K</li>
-					<li><onClick="document.getElementById('L').scrollIntoView();"/>L</li>
-					<li><onClick="document.getElementById('M').scrollIntoView();"/>M</li>
-					<li><onClick="document.getElementById('N').scrollIntoView();"/>N</li>
-					<li><onClick="document.getElementById('O').scrollIntoView();"/>O</li>
-					<li><onClick="document.getElementById('P').scrollIntoView();"/>P</li>
-					<li><onClick="document.getElementById('Q').scrollIntoView();"/>Q</li>
-					<li><onClick="document.getElementById('R').scrollIntoView();"/>R</li>
-					<li><onClick="document.getElementById('S').scrollIntoView();"/>S</li>
-					<li><onClick="document.getElementById('T').scrollIntoView();"/>T</li>
-					<li><onClick="document.getElementById('U').scrollIntoView();"/>U</li>
-					<li><onClick="document.getElementById('V').scrollIntoView();"/>V</li>
-					<li><onClick="document.getElementById('W').scrollIntoView();"/>W</li>
-					<li><onClick="document.getElementById('X').scrollIntoView();"/>X</li>
-					<li><onClick="document.getElementById('Y').scrollIntoView();"/>Y</li>
-					<li><onClick="document.getElementById('Z').scrollIntoView();"/>Z</li> -->
-					<li>A</li>
+					<li><button onClick="document.getElementById('A').scrollIntoView();"/>A</li>
+					<li><button onClick="document.getElementById('B').scrollIntoView();"/>B</li>
+					<li><button onClick="document.getElementById('C').scrollIntoView();"/>C</li>
+					<li><button onClick="document.getElementById('D').scrollIntoView();"/>D</li>
+					<li><button onClick="document.getElementById('E').scrollIntoView();"/>E</li>
+					<li><button onClick="document.getElementById('F').scrollIntoView();"/>F</li>
+					<li><button onClick="document.getElementById('G').scrollIntoView();"/>G</li>
+					<li><button onClick="document.getElementById('H').scrollIntoView();"/>H</li>
+					<li><button onClick="document.getElementById('I').scrollIntoView();"/>I</li>
+					<li><button onClick="document.getElementById('J').scrollIntoView();"/>J</li>
+					<li><button onClick="document.getElementById('K').scrollIntoView();"/>K</li>
+					<li><button onClick="document.getElementById('L').scrollIntoView();"/>L</li>
+					<li><button onClick="document.getElementById('M').scrollIntoView();"/>M</li>
+					<li><button onClick="document.getElementById('N').scrollIntoView();"/>N</li>
+					<li><button onClick="document.getElementById('O').scrollIntoView();"/>O</li>
+					<li><button onClick="document.getElementById('P').scrollIntoView();"/>P</li>
+					<li><button onClick="document.getElementById('Q').scrollIntoView();"/>Q</li>
+					<li><button onClick="document.getElementById('R').scrollIntoView();"/>R</li>
+					<li><button onClick="document.getElementById('S').scrollIntoView();"/>S</li>
+					<li><button onClick="document.getElementById('T').scrollIntoView();"/>T</li>
+					<li><button onClick="document.getElementById('U').scrollIntoView();"/>U</li>
+					<li><button onClick="document.getElementById('V').scrollIntoView();"/>V</li>
+					<li><button onClick="document.getElementById('W').scrollIntoView();"/>W</li>
+					<li><button onClick="document.getElementById('X').scrollIntoView();"/>X</li>
+					<li><button onClick="document.getElementById('Y').scrollIntoView();"/>Y</li>
+					<li><button onClick="document.getElementById('Z').scrollIntoView();"/>Z</li> 
+					<!--<li>A</li>
 					<li>B</li>
 					<li>C</li>
 					<li>D</li>
@@ -60,11 +60,12 @@
 					<li>W</li>
 					<li>X</li>
 					<li>Y</li>
-					<li>Z</li>
+					<li>Z</li> -->
 				</ul>
 			<div class="references">
 				<div id="A">
 					<ul>
+						<p>A</p>
 						<li><a href="">Achelous</a>, see <a href="">Heracles</a> and <a href="">Theseus</a></li>
 						<li><a href="">Achilles</a></li>
 						<li><a href="">AchillesAfterlife</a></li>
@@ -168,6 +169,7 @@
 				</div>
 				<div id="B">
 					<ul>
+						<p>B</p>
 						<li><a href="">Bacchanalia</a></li>
 						<li><a href="">Bacchus</a>, see <a href="">Dionysus</a></li>
 						<li><a href="">Battus</a>, see <a href="">HermesInfancy</a></li>
@@ -182,6 +184,7 @@
 				</div>
 				<div id="C">
 					<ul>
+						<p>C</p>
 						<li><a href="">Cadmus</a></li>
 						<li><a href="">Caenis</a>, see <a href="">PoseidonLoves</a></li>
 						<li><a href="">Calais</a>, see <a href="">Boreas</a></li>
@@ -238,6 +241,7 @@
 				</div>
 				<div id="D">
 					<ul>
+						<p>D</p>
 						<li><a href="">Daedalus</a>, see <a href="">IcarusDaedalus</a></li>
 						<li><a href="">Damon</a>, see <a href="">ShepherdsShepherdesses</a></li>
 						<li><a href="">Danaë</a></li>
@@ -261,6 +265,7 @@
 				</div>
 				<div id="E">
 					<ul>
+						<p>E</p>
 						<li><a href="">Echo</a>, see <a href="">Narcissus</a></li>
 						<li><a href="">Electra</a></li>
 						<li><a href="">ElectraPleiad</a></li>
@@ -295,6 +300,7 @@
 				</div>
 				<div id="F">
 					<ul>
+						<p>F</p>
 						<li><a href="">Fates</a></li>
 						<li><a href="">Fauns</a>, see <a href="">SatyrsFauns</a></li>
 						<li><a href="">Faunus</a>, see <a href="">Pan</a></li>
@@ -305,6 +311,7 @@
 				</div>
 				<div id="G">
 					<ul>
+						<p>G</p>
 						<li><a href="">Galatea</a>, see <a href="">Pygmalion</a> or <a href="">Acis</a></li>
 						<li><a href="">Ganymede</a></li>
 						<li><a href="">Ge</a>, see <a href="">Gaia</a></li>
@@ -323,6 +330,7 @@
 				</div>
 				<div id="H">
 					<ul>
+						<p>H</p>
 						<li><a href="">Hades</a></li>
 						<li><a href="">Hades (son of Cronus)</a></li>
 						<li><a href="">Hades</a>, see either <a href="">Hades (son of Cronus)</a> or <a href="">Hades</a> <em>Keep the seperate Hades?</em></li>
@@ -391,6 +399,7 @@
 				</div>
 				<div id="I">
 					<ul>
+						<p>I</p>
 						<li><a href="">Iarbas</a>, see <a href="">Dido</a></li>
 						<li><a href="">Icarius</a>, see <a href="">Erigone</a></li>
 						<li><a href="">IcarusDaedalus</a></li>
@@ -413,6 +422,7 @@
 				</div>
 				<div id="J">
 					<ul>
+						<p>J</p>
 						<li><a href="">Janus</a></li>
 						<li><a href="">Jason</a></li>
 						<li><a href="">JasonArgonauts</a></li>
@@ -427,6 +437,7 @@
 				</div>
 				<div id="L">
 					<ul>
+						<p>L</p>
 						<li><a href="">Laocoön</a></li>
 						<li><a href="">Laodamia</a>, see <a href="">ProtesilausLaodamia</a></li>
 						<li><a href="">Laomedon</a></li>
@@ -453,6 +464,7 @@
 				</div>
 				<div id="M">
 					<ul>
+						<p>M</p>
 						<li><a href="">Maenads</a></li>
 						<li><a href="">Maia</a></li>
 						<li><a href="">Marpessa</a></li>
@@ -492,6 +504,7 @@
 				</div>
 				<div id="N">
 					<ul>
+						<p>N</p>
 						<li><a href="">Naiads</a>, see <a href="">NymphsNaiads</a></li>
 						<li><a href="">Narcissus</a></li>
 						<li><a href="">Nausicaa</a></li>
@@ -512,6 +525,7 @@
 				</div>
 				<div id="O">
 					<ul>
+						<p>O</p>
 						<li><a href="">Oceanids</a>, see <a href="">NymphsNereids</a></li>
 						<li><a href="">Oceanus</a></li>
 						<li><a href="">Odysseus</a></li>
@@ -545,6 +559,7 @@
 				</div>
 				<div id="P">
 					<ul>
+						<p>P</p>
 						<li><a href="">Palamedes</a></li>
 						<li><a href="">Palinurus</a>, see <a href="">AeneasUnderworld</a></li>
 						<li><a href="">Palladium</a>, see <a href="">Athena</a></li>
@@ -626,6 +641,7 @@
 				</div>
 				<div id="R">
 					<ul>
+						<p>R</p>
 						<li><a href="">Rhadamanthus</a>, see <a href="">Hades</a></li>
 						<li><a href="">Rhea</a>, see <a href="">Cronus</a> and <a href="">TitansGiants</a> and <a href="">ZeusInfancy</a></li>
 						<li><a href="">Rhesus</a>, see <a href="">Diomedes</a></li>
@@ -633,6 +649,7 @@
 				</div>
 				<div id="S">
 					<ul>
+						<p>S</p>
 						<li><a href="">Salamacis</a>, see <a href="">Hermaphroditus</a></li>
 						<li><a href="">Sarpedon</a>, see <a href="">Patroclus</a></li>
 						<li><a href="">Saturn</a>, see <a href="">Cronus</a></li>
@@ -654,6 +671,7 @@
 				</div>
 				<div id="T">
 					<ul>
+						<p>T</p>
 						<li><a href="">Tantalus</a></li>
 						<li><a href="">Tartarus</a>, see <a href="">Hades</a></li>
 						<li><a href="">Telegonus</a>, see <a href="">OdysseusDeath</a></li>
@@ -699,6 +717,7 @@
 				</div>
 				<div id="U">
 					<ul>
+						<p>U</p>
 						<li><a href="">Ulysseus</a>, see <a href="">Odysseus</a></li>
 						<li><a href="">Urania</a>, see <a href="">MusesAstronomyUrania</a></li>
 						<li><a href="">Uranus</a></li>
@@ -706,6 +725,7 @@
 				</div>
 				<div id="V">
 					<ul>
+						<p>V</p>
 						<li><a href="">Venus</a>, see <a href="">Aphrodite</a></li>
 						<li><a href="">Vertumnus</a></li>
 						<li><a href="">Vesta</a>, see <a href="">Hestia</a></li>
@@ -714,11 +734,13 @@
 				</div>
 				<div id="W">
 					<ul>
+						<p>W</p>
 						<li><a href="">WidowEphesus</a></li>
 					</ul>
 				</div>
 				<div id="Z">
 					<ul>
+						<p>Z</p>
 						<li><a href="">Zephyr</a></li>
 						<li><a href="">Zephyr</a>, see <a href="">FloraZephyr</a></li>
 						<li><a href="">Zetes</a>, see <a href="">Boreas</a></li>

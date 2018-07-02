@@ -97,14 +97,35 @@ h2 {
 
 .sort li:hover {
 	background-color: #d3d3d3 !important;
-}
+} 
 
 .sort li {
 	list-style-type: none;
-	padding: 5px 10px 5px 10px;
 	text-align: center;
 }
 
 em {
 	color: blue;
+}
+
+button{
+	background-color: #F8F8F8;
+	border: none;	
+	font-family: forum;
+	padding: 5px 10px 5px 10px;
+	font-size: 12pt;
+}
+
+button:hover{
+	background-color: #d3d3d3 !important;
+	cursor: pointer !important;
+}
+
+#A, #B, #C, #D, #E, #F, #G, #H, #I, #J, #K, #L, #M, #N, #O, #P, #Q, #R, #S, #T, #U, #V, #W, #X, #Y, #Z{
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+p{
+	padding-bottom: 10pt;
 }
