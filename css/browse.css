@@ -114,6 +114,7 @@ button{
 	font-family: forum;
 	padding: 5px 10px 5px 10px;
 	font-size: 12pt;
+	outline: none;
 }
 
 button:hover{
