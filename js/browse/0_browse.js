@@ -18,7 +18,7 @@ class Database {
 		}); //end get
 	} //end getEntriesBySerial
 	
-	allSearch(search_param){
+	/* allSearch(search_param){
 		let getData = { 'option' : search_param };
 		$.get("admin/getAllByParameter.php", getData, function(data){
 			$('.sum_body').html(data);
@@ -226,7 +226,7 @@ class Database {
 		let theadThirdWidth = $('.thead-third').width();
 		let newWidth = theadThirdWidth - scrollbarWidth;
 		$('.thead-third').css('width', newWidth + 'px');
-	} //end setAdjustedWidth
+	} //end setAdjustedWidth */
 } //end Database
 
 class Functions {
@@ -411,17 +411,17 @@ $(document).ready(function(){
 	const database = new Database;
 	const functions = new Functions;
 
-	functions.showUpdateInputs(database);
+/* 	functions.showUpdateInputs(database);
 	functions.updateEntry(database);
 	functions.editWarning();
-	functions.showEntryNumber();
+	functions.showEntryNumber(); */
 	functions.sortEntries(database);
-	functions.getEntry(database);
+	/* functions.getEntry(database);
 	functions.addBibButton(database);
 	functions.addNoteButton(database);
 	functions.deleteBibButton(database);
 	functions.deleteNoteButton(database);
-	functions.allSearch(database);
+	functions.allSearch(database); */
 	//funtion.scrollTo();
 
 	//On load will automatically select the first item in the list and display it's information

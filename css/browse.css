@@ -70,7 +70,7 @@ h2 {
 }
 
 .sort {
-	width: 800px;
+	width: 625px;
 	margin-left: 25px;
 	border-bottom: 2px solid #d3d3d3;
 	vertical-align: top;
@@ -108,14 +108,14 @@ em {
 	color: blue;
 }
 
-button{
+/* button{
 	background-color: #F8F8F8;
 	border: none;	
 	font-family: forum;
 	padding: 5px 10px 5px 10px;
 	font-size: 12pt;
 	outline: none;
-}
+} */
 
 button:hover{
 	background-color: #d3d3d3 !important;
@@ -127,6 +127,10 @@ button:hover{
 	padding-bottom: 10px;
 }
 
-p{
+p {
 	padding-bottom: 10pt;
+}
+
+.abc {
+	padding: 5pt;
 }

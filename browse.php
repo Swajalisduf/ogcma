@@ -9,7 +9,7 @@
 				<input class="allSearch" type="text" name="allSearch" placeholder="Search All Usages">
 			</div>
 				<ul class="sort">
-					<li><button onClick="document.getElementById('A').scrollIntoView();"/>A</li>
+				<!-- 	<li><button onClick="document.getElementById('A').scrollIntoView();"/>A</li>
 					<li><button onClick="document.getElementById('B').scrollIntoView();"/>B</li>
 					<li><button onClick="document.getElementById('C').scrollIntoView();"/>C</li>
 					<li><button onClick="document.getElementById('D').scrollIntoView();"/>D</li>
@@ -34,33 +34,33 @@
 					<li><button onClick="document.getElementById('W').scrollIntoView();"/>W</li>
 					<li><button onClick="document.getElementById('X').scrollIntoView();"/>X</li>
 					<li><button onClick="document.getElementById('Y').scrollIntoView();"/>Y</li>
-					<li><button onClick="document.getElementById('Z').scrollIntoView();"/>Z</li> 
-					<!--<li>A</li>
-					<li>B</li>
-					<li>C</li>
-					<li>D</li>
-					<li>E</li>
-					<li>F</li>
-					<li>G</li>
-					<li>H</li>
-					<li>I</li>
-					<li>J</li>
-					<li>K</li>
-					<li>L</li>
-					<li>M</li>
-					<li>N</li>
-					<li>O</li>
-					<li>P</li>
-					<li>Q</li>
-					<li>R</li>
-					<li>S</li>
-					<li>T</li>
-					<li>U</li>
-					<li>V</li>
-					<li>W</li>
-					<li>X</li>
-					<li>Y</li>
-					<li>Z</li> -->
+					<li><button onClick="document.getElementById('Z').scrollIntoView();"/>Z</li> -->
+					<li class="abc">A</li>
+					<li class="abc">B</li>
+					<li class="abc">C</li>
+					<li class="abc">D</li>
+					<li class="abc">E</li>
+					<li class="abc">F</li>
+					<li class="abc">G</li>
+					<li class="abc">H</li>
+					<li class="abc">I</li>
+					<li class="abc">J</li>
+					<li class="abc">K</li>
+					<li class="abc">L</li>
+					<li class="abc">M</li>
+					<li class="abc">N</li>
+					<li class="abc">O</li>
+					<li class="abc">P</li>
+					<li class="abc">Q</li>
+					<li class="abc">R</li>
+					<li class="abc">S</li>
+					<li class="abc">T</li>
+					<li class="abc">U</li>
+					<li class="abc">V</li>
+					<li class="abc">W</li>
+					<li class="abc">X</li>
+					<li class="abc">Y</li>
+					<li class="abc">Z</li>
 				</ul>
 			<div class="references">
 				<div id="A">
