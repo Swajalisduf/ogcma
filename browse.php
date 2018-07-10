@@ -117,7 +117,7 @@
 						<li><a href="">Antaeus</a>, see <a href="">Heracles and Antaeus</a></li>
 						<li><a href="">Anteros</a>, see <a href="">Eros and Anteros</a></li>
 						<li><a href="">Antigone</a></li>
-						<li><a href="">Antinous</a>, see <a href="">OdysseusReturn</a><em> Split these?</em></li>
+						<li><a href="">Antinous</a>, see <a href="">Odysseus Return</a></li>
 						<li><a href="">Antiope</a></li>
 						<li><a href="">Antiope and Dirce</a></li>
 						<li><a href="">Aphrodite</a></li>
@@ -128,9 +128,9 @@
 						<li><a href="">Aphrodite, Girdle of</a></li>
 						<li><a href="">Aphrodite-Tannhäuser</a></li>
 						<li><a href="">Aphrodite-Venus Frigida</a></li>
-						<li><a href="">Aphrodite-VenusSatyrs</a><em> Split these?</em></li>
+						<li><a href="">Aphrodite-Venus Satyrs</a></li>
 						<li><a href="">Aphrodite-Venus Statue</a></li>
-						<li><a href="">Aphrodite-VenusWorship</a><em> Split these?</em></li>
+						<li><a href="">Aphrodite-Venus Worship</a></li>
 						<li><a href="">Apollo</a></li>
 						<li><a href="">Apollo and the Cumaean Sibyl</a></li>
 						<li><a href="">Apollo, Loves of</a></li>
@@ -286,7 +286,7 @@
 						<li><a href="">Eros and the Bee(s)</a></li>
 						<li><a href="">Eros, Education of</a></li>
 						<li><a href="">Eros, Punishment of</a></li>
-						<li><a href="">Eros Triumphant</a><em> Should this look like the one above?</em></li>
+						<li><a href="">Eros Triumphant</a><em> Should this look like the one above with a comma?</em></li>
 						<li><a href="">Eteocles</a>, see <a href="">Seven Against Thebes</a></li>
 						<li><a href="">Europa</a></li>
 						<li><a href="">Euryalus</a>, see <a href="">Aeneas in Latium</a></li>
