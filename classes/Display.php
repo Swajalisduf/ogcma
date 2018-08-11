@@ -270,6 +270,16 @@ class Display {
 				
 	
 				break;
+				
+				case "titles";
+				//used on the individal myth pages to show the different titles
+					echo "
+						<ul>
+							<li><a>{$this->title}</a></li>
+						</ul>
+					";
+					
+				break;
 			}				
 	} // end displayEntries
 

@@ -26,6 +26,7 @@
 
 		<script src="js/jquery-3.1.1.js"></script>
 		<script src="js/general.js"></script>
+		<script src="jquery-scrollto/lib/jquery-scrollto.js"></script>
 		<?=Header::getJavascripts($page);?>
 		
 	</head>

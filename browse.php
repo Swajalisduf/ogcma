@@ -66,7 +66,7 @@
 				<div id="A">
 					<ul>
 						<p>A</p>
-						<li><a href="">Achelous</a>, see <a href="">Heracles</a> and <a href="">Theseus</a></li>
+						<li><a href="">Achelous</a>, see <a href="heracles.php">Heracles</a> and <a href="">Theseus</a></li>
 						<li><a href="">Achilles</a></li>
 						<li><a href="">Achilles, Afterlife of</a></li>
 						<li><a href="">Achilles, Death of</a></li>
@@ -267,7 +267,7 @@
 					<ul>
 						<p>E</p>
 						<li><a href="">Echo</a>, see <a href="">Narcissus</a></li>
-						<li><a href="">Electra</a></li>
+						<li><a href="electra.php">Electra</a></li>
 						<li><a href="">Electra the Pleiad</a></li>
 						<li><a href="">Elysium</a></li>
 						<li><a href="">Encaldus</a></li>
@@ -286,7 +286,7 @@
 						<li><a href="">Eros and the Bee(s)</a></li>
 						<li><a href="">Eros, Education of</a></li>
 						<li><a href="">Eros, Punishment of</a></li>
-						<li><a href="">Eros Triumphant</a><em> Should this look like the one above with a comma?</em></li>
+						<li><a href="">Eros, Triumphant</a></li>
 						<li><a href="">Eteocles</a>, see <a href="">Seven Against Thebes</a></li>
 						<li><a href="">Europa</a></li>
 						<li><a href="">Euryalus</a>, see <a href="">Aeneas in Latium</a></li>
@@ -348,7 +348,7 @@
 						<li><a href="">Hephaestus</a></li>
 						<li><a href="">Hera</a></li>
 						<li><a href="">Heracles and Cacus</a><em> Switch to abc order spot</em></li>
-						<li><a href="">Heracles</a></li>
+						<li><a href="heracles.php">Heracles</a></li>
 						<li><a href="">Heracles and Antaeus</a></li>
 						<li><a href="">Heracles, Apotheosis of</a></li>
 						<li><a href="">Heracles, Birth of</a></li>

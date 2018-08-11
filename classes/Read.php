@@ -269,6 +269,41 @@ READ FUNCTIONS
 			echo "<p class='error'>ERROR: " . $error->getMessage() . "</p>";
 		}
 	} //end getEntriesBySerial
+	
+	public function getTitles($myth_title){
+		try{
+			$selectQuery = "
+				SELECT
+					usage.title,
+					usage.id as usage_id,
+					myths.id as myth_id,
+					myths.myth
+				FROM
+					`usage`	
+				JOIN usage_myth
+					ON usage.id = usage_myth.usage_id
+				JOIN myths
+					ON usage_myth.myth_id = myths.id
+				WHERE
+					myths.myth = :myth_title
+				";
+				
+			$statement = $this->connection->prepare($selectQuery);
+			$statement->bindParam(':myth_title', $myth_title, PDO::PARAM_STR);
+			$statement->execute();
+			$titles = $statement->fetchAll(PDO::FETCH_CLASS, "Display");
+			
+			return $titles;
+		} catch( PDOException $error ) {
+			echo "<p class='error'>ERROR: " . $error->getMessage() . "</p>";
+		}
+	}//end getTitles
+	/* 
+	SELECT
+						title
+					FROM
+						`usage`
+	 */
 
 	public function getSingleEntry($usage_id){
 		try {

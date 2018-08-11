@@ -230,7 +230,15 @@ class Database {
 } //end Database
 
 class Functions {
-	showUpdateInputs(database){
+	scrollTo(database){
+		$('.abc').on('click', function(e){
+			let value = e.target.id;
+			if (value == "A") {
+				$('#A').ScrollTo();
+			}
+		}); //end button click
+	} //end scrollTo
+	/* showUpdateInputs(database){
 		$('.details').on('click', '.edit-delete', function(e){
 			let value = e.target.value;
 			let usage_id = e.target.parentElement.previousElementSibling.firstChild.value;
@@ -344,7 +352,7 @@ class Functions {
 				$('.entry_number').addClass('hidden');
 			}
 		}); //end .type focus
-	} //end showEntryNumber
+	} //end showEntryNumber */
 
 	sortEntries(database){
 		$('.sort').click(function(e){
@@ -352,7 +360,7 @@ class Functions {
 		}); //end .sort click
 	} //end sortEntries
 
-	getEntry(database){
+	/* getEntry(database){
 		$('.usages').on('click', '.item_summary', function(e){
 			database.getSingleEntry(e);
 		}); //end .item_summary click
@@ -402,9 +410,8 @@ class Functions {
 			database.allSearch(search_param)
 		});
 	}
-	/* scrollTo(){
-		document.getElementById('A').scrollIntoView();
-	} */
+	 */
+	
 } //end Functions
 
 $(document).ready(function(){
@@ -416,21 +423,21 @@ $(document).ready(function(){
 	functions.editWarning();
 	functions.showEntryNumber(); */
 	functions.sortEntries(database);
+	functions.scrollTo(database);
 	/* functions.getEntry(database);
 	functions.addBibButton(database);
 	functions.addNoteButton(database);
 	functions.deleteBibButton(database);
 	functions.deleteNoteButton(database);
 	functions.allSearch(database); */
-	//funtion.scrollTo();
 
 	//On load will automatically select the first item in the list and display it's information
-	database.getFirstEntry();
+	//database.getFirstEntry();
 			
 	//Finds the window's height and then adds it to the css on load or resize (Need this for the overflow, for some reason vh won't work...)
-	database.setHeight();
+	//database.setHeight();
 
 	//Gets scrollbar width and adjust width of summary header
-	database.setAdjustedWidth();
+	//database.setAdjustedWidth();
 	
 }); //end ready
