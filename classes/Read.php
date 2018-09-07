@@ -276,6 +276,7 @@ READ FUNCTIONS
 				SELECT
 					usage.title,
 					usage.id as usage_id,
+					usage.entry_number,
 					myths.id as myth_id,
 					myths.myth
 				FROM
@@ -298,12 +299,66 @@ READ FUNCTIONS
 			echo "<p class='error'>ERROR: " . $error->getMessage() . "</p>";
 		}
 	}//end getTitles
-	/* 
-	SELECT
-						title
-					FROM
-						`usage`
-	 */
+	
+	public function getInfo($myth_usage){
+		try{
+			$selectQuery = " 
+				SELECT
+					usage.id as usage_id,
+					myths.id as myth_id,
+					myths.myth,
+					usage.type,
+					usage.entry_number,
+					usage.reid_pg,
+					authors.id as author_id,
+					authors.author_given,
+					authors.author_surname,
+					authors.author_date,
+					usage.additional_artist,
+					usage.title,
+					mediums.id as medium_id,
+					mediums.medium,
+					genres.id as genre_id,
+					genres.genre,
+					usage.publication,
+					usage.owning,
+					usage.date_modifier,
+					usage.creation_date,
+					usage.bc,
+					usage.premiere_date,
+					usage.premiere_venue,
+					usage.ogcma_slide,
+					usage.image_link,
+					usage.other_link,
+					usage.description
+				FROM
+					`usage`
+				LEFT JOIN mediums
+					ON mediums.id = usage.medium_id
+				LEFT JOIN genres
+					ON genres.id = usage.genre_id
+				JOIN usage_author
+					ON usage.id = usage_author.usage_id
+				JOIN authors
+					ON usage_author.author_id = authors.id
+				JOIN usage_myth
+					ON usage.id = usage_myth.usage_id
+				JOIN myths
+					ON usage_myth.myth_id = myths.id
+				WHERE
+					usage.title = :myth_usage
+			";
+			
+			$statement = $this->connection->prepare($selectQuery);
+			$statement->bindParam(':myth_usage', $myth_usage, PDO::PARAM_STR);
+			$statement->execute();
+			$info = $statement->fetchAll(PDO::FETCH_CLASS, "Display");
+			
+			return $info;
+		} catch ( PDOException $error ) {
+			echo "<p class='error'>ERROR: " . $error->getMessage() . "</p>";
+		}
+	}//end getInfo
 
 	public function getSingleEntry($usage_id){
 		try {

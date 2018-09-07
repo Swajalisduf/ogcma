@@ -66,7 +66,7 @@
 				<div id="A">
 					<ul>
 						<p>A</p>
-						<li><a href="">Achelous</a>, see <a href="heracles.php">Heracles</a> and <a href="">Theseus</a></li>
+						<li><a href="electra_example.php">Achelous</a>, see <a href="heracles.php">Heracles</a> and <a href="">Theseus</a></li>
 						<li><a href="">Achilles</a></li>
 						<li><a href="">Achilles, Afterlife of</a></li>
 						<li><a href="">Achilles, Death of</a></li>

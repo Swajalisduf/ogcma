@@ -4,7 +4,7 @@
 	$read = new Read;
 	$title = "heracles";
 	$usages = $read->getTitles($title);
-	
+	//var_dump();
 ?>
 <main>
 	<img class='background-image' src='images/background_top_1300px.png' alt='background'>

@@ -275,10 +275,21 @@ class Display {
 				//used on the individal myth pages to show the different titles
 					echo "
 						<ul>
-							<li><a>{$this->title}</a></li>
+							<li><a href=\"#\">{$this->title}</a></li>
+							< p >{$this->entry_number}</p>
 						</ul>
 					";
 					
+				break;
+				
+				case "info";
+				//used on the individual usage pages to show all the info from the database 
+					echo "
+						<h1>{$this->title}</h1>
+						/* <p>{$this->author_given} {$this->author_surname}</p>
+						<p>{$}</p> */
+					";
+					/* array(1) { [0]=> object(Display)#7 (30) { ["usage_id"]=> string(4) "1175" ["myth_id"]=> string(2) "29" ["myth"]=> string(7) "Electra" ["type"]=> string(1) "2" ["entry_number"]=> string(2) "15" ["reid_pg"]=> string(3) "373" ["author_id"]=> string(3) "654" ["author_given"]=> string(6) "Laurie" ["author_surname"]=> string(5) "Sheck" ["author_date"]=> string(5) "1953-" ["additional_artist"]=> string(0) "" ["title"]=> string(16) "Electra, Waiting" ["medium_id"]=> string(1) "3" ["medium"]=> string(4) "poem" ["genre_id"]=> NULL ["genre"]=> NULL ["publication"]=> string(171) "Sheck, Lauri. "Electra, Waiting," from Amaranth, 1981 (University of Georgia Press) = N. Kossman, ed., Gods and Mortals: Modern Poems on Classical Myths (OUP 2001) 241-42." ["owning"]=> string(0) "" ["date_modifier"]=> string(0) "" ["creation_date"]=> string(4) "1981" ["bc"]=> string(0) "" ["premiere_date"]=> string(0) "" ["premiere_venue"]=> string(0) "" ["ogcma_slide"]=> string(0) "" ["image_link"]=> string(0) "" ["other_link"]=> string(0) "" ["bibliography_id"]=> NULL ["bibliography"]=> NULL ["notes"]=> NULL ["description"]=> NULL } } */
 				break;
 			}				
 	} // end displayEntries
